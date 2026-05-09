@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+}
+
+
+.tela {
+    display: flex;
+    height: 100vh; 
+}
+
+.lado {
+    width: 50%; 
+}
+
+.azul {
+    background-color: #497dcb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+
+.branco {
+    background-color: white;
+}
+
+.azul img {
+    width: 40rem;
+    height: 40rem;
+    padding: -40px;
+    opacity: 0.5;
+
+}
+
+.branco h1 {
+    font-size: 50px;
+    color: #497dcb;
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.branco p {
+    font-size: 20px;
+    color: #202123;
+    margin-left: 55px;
+    padding-top: 60px;
+    padding-left: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.branco input {
+    margin-top: 20px;
+    margin-left: 110px;
+    border-radius: 10px;
+    border: solid 3px #497dcb;
+    width: 35rem;
+    height: 2.5rem;
+
+} 
+
+.botaoE {
+    background-color: #497dcb;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    border-radius: 3cqb;
+    border: solid 3px #497dcb;
+    color: #fdfdfd;
+    bottom: 15px; 
+    margin-left: 554px;
+    margin-top: 30px;   
+    font-weight: bold;
+}
+
+.botaoE a {
+    color: #ffffff;
+}
+
+.cliquea {
+    font-size: 50px;
+}
+
+.texto {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 200px;
+    margin-top: 200px;
+    display: inline-block;
+
+}
+
+.texto span {
+    color: #497dcb;
+    font-weight: bold;  
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btnVoltar {
+    background-color: #497dcb;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    border-radius: 3cqb;
+    border: solid 3px #497dcb;
+    color: #ffffff;
+    bottom: 15px; 
+    margin-left: -600px;
+    margin-top: 30px;   
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.div1 {
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 110px;
+    font-size: 13px;
+}

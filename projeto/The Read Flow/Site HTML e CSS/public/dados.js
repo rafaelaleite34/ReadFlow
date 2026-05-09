@@ -1,0 +1,1552 @@
+let livros = [
+	{
+		"id" : 1,
+		"nome" : "Binding 13",
+		"autor" : "Chloe Walsh",
+		"paginas" : 624,
+		"url" : "https://m.media-amazon.com/images/I/51ePjkTFw1L._SY445_SX342_ML2_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Johnny Kavanagh, astro do rugby escolar, conhece Shannon, uma garota reservada marcada por problemas familiares e traumas.",
+		"ano" : 2018
+	},
+	{
+		"id" : 2,
+		"nome" : "Powerless",
+		"autor" : "Lauren Roberts",
+		"paginas" : 528,
+		"url" : "https://m.media-amazon.com/images/I/91JurjqB18L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Paedyn Gray vive escondendo seus poderes em um reino onde ser comum significa morte.",
+		"ano" : 2023
+	},
+	{
+		"id" : 3,
+		"nome" : "Trono de Vidro",
+		"autor" : "Sarah J. Maas",
+		"paginas" : 392,
+		"url" : "https://m.media-amazon.com/images/I/81m94OedHqL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Celaena Sardothien, uma assassina lendária, recebe a chance de conquistar sua liberdade em uma competição mortal.",
+		"ano" : 2012
+	},
+	{
+		"id" : 4,
+		"nome" : "Corte de Espinhos e Rosas",
+		"autor" : "Sarah J. Maas",
+		"paginas" : 434,
+		"url" : "https://m.media-amazon.com/images/I/81OmtVkUTcL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Feyre mata um lobo e acaba sendo levada para uma terra mágica cheia de perigos e segredos.",
+		"ano" : 2015
+	},
+	{
+		"id" : 5,
+		"nome" : "Corte de Névoa e Fúria",
+		"autor" : "Sarah J. Maas",
+		"paginas" : 658,
+		"url" : "https://m.media-amazon.com/images/I/81BVlM0IU3L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Feyre precisa lidar com traumas, política e um novo relacionamento transformador.",
+		"ano" : 2016
+	},
+	{
+		"id" : 6,
+		"nome" : "Corte de Asas e Ruína",
+		"autor" : "Sarah J. Maas",
+		"paginas" : 686,
+		"url" : "https://m.media-amazon.com/images/I/81d86N6Q6rL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "A guerra se aproxima e Feyre precisa lutar por aqueles que ama.",
+		"ano" : 2017
+	},
+	{
+		"id" : 7,
+		"nome" : "Corte de Gelo e Estrelas",
+		"autor" : "Sarah J. Maas",
+		"paginas" : 238,
+		"url" : "https://m.media-amazon.com/images/I/81BFOwnB6AL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Os personagens lidam com as consequências da guerra durante o solstício de inverno.",
+		"ano" : 2018
+	},
+	{
+		"id" : 8,
+		"nome" : "Corte de Chamas Prateadas",
+		"autor" : "Sarah J. Maas",
+		"paginas" : 952,
+		"url" : "https://m.media-amazon.com/images/I/81y-jxmu9JL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 18,
+		"sinopse" : "Nesta Archeron enfrenta traumas e descobre sua força em uma jornada intensa.",
+		"ano" : 2021
+	},
+	{
+		"id" : 9,
+		"nome" : "O Príncipe Cruel",
+		"autor" : "Holly Black",
+		"paginas" : 322,
+		"url" : "https://m.media-amazon.com/images/I/81FH6q0EqYS._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Jude, uma humana criada entre fadas, deseja conquistar poder em um mundo cruel.",
+		"ano" : 2018
+	},
+	{
+		"id" : 10,
+		"nome" : "O Rei Perverso",
+		"autor" : "Holly Black",
+		"paginas" : 322,
+		"url" : "https://m.media-amazon.com/images/I/91N9kjbqxWS._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Jude navega intrigas políticas e jogos perigosos pelo trono.",
+		"ano" : 2019
+	},
+	{
+		"id" : 11,
+		"nome" : "A Rainha do Nada",
+		"autor" : "Holly Black",
+		"paginas" : 308,
+		"url" : "https://m.media-amazon.com/images/I/51r3SbJ+qrL._SY445_SX342_ML2_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Jude enfrenta a batalha final por poder, amor e sobrevivência.",
+		"ano" : 2019
+	},
+	{
+		"id" : 12,
+		"nome" : "A Guerra da Papoula",
+		"autor" : "R. F. Kuang",
+		"paginas" : 544,
+		"url" : "https://m.media-amazon.com/images/I/613YunBw8yL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Rin entra para uma academia militar e descobre poderes ligados a deuses antigos.",
+		"ano" : 2018
+	},
+	{
+		"id" : 13,
+		"nome" : "República do Dragão",
+		"autor" : "R. F. Kuang",
+		"paginas" : 672,
+		"url" : "https://m.media-amazon.com/images/I/61bHMCxghFL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Rin lidera forças em meio a guerra, trauma e destruição.",
+		"ano" : 2019
+	},
+	{
+		"id" : 14,
+		"nome" : "Deusa em Chamas",
+		"autor" : "R. F. Kuang",
+		"paginas" : 560,
+		"url" : "https://m.media-amazon.com/images/I/61RD8yx2UVL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "A conclusão épica acompanha Rin em sua luta final pelo futuro do império.",
+		"ano" : 2020
+	},
+	{
+		"id" : 15,
+		"nome" : "A Biblioteca da Meia-Noite",
+		"autor" : "Matt Haig",
+		"paginas" : 308,
+		"url" : "https://m.media-amazon.com/images/I/81iqH8dpjuL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Nora Seed recebe a chance de explorar vidas alternativas e refletir sobre escolhas.",
+		"ano" : 2020
+	},
+	{
+		"id" : 16,
+		"nome" : "Daisy Jones and The Six",
+		"autor" : "Taylor Jenkins Reid",
+		"paginas" : 360,
+		"url" : "https://m.media-amazon.com/images/I/91KL76cFphL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "A ascensão e queda de uma banda fictícia dos anos 70 é contada em formato de entrevistas.",
+		"ano" : 2019
+	},
+	{
+		"id" : 17,
+		"nome" : "Frankenstein",
+		"autor" : "Mary Shelley",
+		"paginas" : 240,
+		"url" : "https://m.media-amazon.com/images/I/81DtPrUXl+L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Victor Frankenstein desafia as leis da natureza ao criar vida artificialmente, enfrentando terríveis consequências.",
+		"ano" : 1818
+	},
+	{
+		"id" : 18,
+		"nome" : "O Retrato de Dorian Gray",
+		"autor" : "Oscar Wilde",
+		"paginas" : 254,
+		"url" : "https://m.media-amazon.com/images/I/51qh7cI06QL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Dorian Gray deseja eterna juventude enquanto seu retrato envelhece em seu lugar.",
+		"ano" : 1890
+	},
+	{
+		"id" : 19,
+		"nome" : "A Paciente Silenciosa",
+		"autor" : "Alex Michaelides",
+		"paginas" : 364,
+		"url" : "https://m.media-amazon.com/images/I/91R8S52UP6L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Uma psicoterapeuta tenta descobrir por que sua paciente matou o marido e nunca mais falou.",
+		"ano" : 2019
+	},
+	{
+		"id" : 20,
+		"nome" : "Misery",
+		"autor" : "Stephen King",
+		"paginas" : 336,
+		"url" : "https://m.media-amazon.com/images/I/91ocgbfq55L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Um escritor sofre acidente e fica preso aos cuidados de sua fã obsessiva.",
+		"ano" : 1987
+	},
+	{
+		"id" : 21,
+		"nome" : "Doutor Sono",
+		"autor" : "Stephen King",
+		"paginas" : 480,
+		"url" : "https://m.media-amazon.com/images/I/81caDOQBC-L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Danny Torrance, agora adulto, encara novos perigos ligados ao brilho.",
+		"ano" : 2013
+	},
+	{
+		"id" : 22,
+		"nome" : "O Iluminado",
+		"autor" : "Stephen King",
+		"paginas" : 520,
+		"url" : "https://m.media-amazon.com/images/I/81Q+pJi4NjL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Uma família se muda para um hotel isolado onde forças sobrenaturais despertam horrores.",
+		"ano" : 1977
+	},
+	{
+		"id" : 23,
+		"nome" : "A Empregada",
+		"autor" : "Freida McFadden",
+		"paginas" : 304,
+		"url" : "https://m.media-amazon.com/images/I/81BdpMhm3iL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Millie aceita trabalhar em uma casa luxuosa, mas percebe que nem tudo é o que parece.",
+		"ano" : 2022
+	},
+	{
+		"id" : 24,
+		"nome" : "O Segredo da Empregada",
+		"autor" : "Freida McFadden",
+		"paginas" : 288,
+		"url" : "https://m.media-amazon.com/images/I/81qwX4O+XIL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Millie retorna em uma nova trama cheia de segredos e manipulação.",
+		"ano" : 2023
+	},
+	{
+		"id" : 25,
+		"nome" : "Uma Vida Pequena",
+		"autor" : "Hanya Yanagihara",
+		"paginas" : 720,
+		"url" : "https://m.media-amazon.com/images/I/91mdEwOzdGS._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 18,
+		"sinopse" : "A amizade entre quatro homens acompanha décadas de amor, trauma e sofrimento.",
+		"ano" : 2015
+	},
+	{
+		"id" : 26,
+		"nome" : "Vermelho, Branco e Sangue Azul",
+		"autor" : "Casey McQuiston",
+		"paginas" : 392,
+		"url" : "https://m.media-amazon.com/images/I/71SYepTUsDL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "O filho da presidente dos EUA e um príncipe britânico vivem um romance improvável.",
+		"ano" : 2019
+	},
+	{
+		"id" : 27,
+		"nome" : "A Hipótese do Amor",
+		"autor" : "Ali Hazelwood",
+		"paginas" : 336,
+		"url" : "https://m.media-amazon.com/images/I/81LTEfXYgcL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Uma doutoranda convence um professor a fingir ser seu namorado.",
+		"ano" : 2021
+	},
+	{
+		"id" : 28,
+		"nome" : "A Razão do Amor",
+		"autor" : "Ali Hazelwood",
+		"paginas" : 368,
+		"url" : "https://m.media-amazon.com/images/I/81bkmJnflPL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Bee reencontra um rival acadêmico em um projeto da NASA.",
+		"ano" : 2022
+	},
+	{
+		"id" : 29,
+		"nome" : "Amor, Teoricamente",
+		"autor" : "Ali Hazelwood",
+		"paginas" : 384,
+		"url" : "https://m.media-amazon.com/images/I/81iUrbors9L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Elsie vive identidades duplas até se envolver com alguém inesperado.",
+		"ano" : 2023
+	},
+	{
+		"id" : 30,
+		"nome" : "Quarta Asa",
+		"autor" : "Rebecca Yarros",
+		"paginas" : 544,
+		"url" : "https://m.media-amazon.com/images/I/71pSq7HXJ0L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Violet entra em uma academia brutal de cavaleiros de dragões.",
+		"ano" : 2023
+	},
+	{
+		"id" : 31,
+		"nome" : "Chama de Ferro",
+		"autor" : "Rebecca Yarros",
+		"paginas" : 640,
+		"url" : "https://m.media-amazon.com/images/I/91i+8KU2U5L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Violet enfrenta desafios ainda mais perigosos e segredos sobre seu reino.",
+		"ano" : 2023
+	},
+	{
+		"id" : 32,
+		"nome" : "Tempestade de Ônix",
+		"autor" : "Rebecca Yarros",
+		"paginas" : 720,
+		"url" : "https://m.media-amazon.com/images/I/91915km0UdL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "A jornada continua em meio a novas ameaças, dragões e magia.",
+		"ano" : 2025
+	},
+	{
+		"id" : 33,
+		"nome" : "Caraval",
+		"autor" : "Stephanie Garber",
+		"paginas" : 352,
+		"url" : "https://m.media-amazon.com/images/I/71p66yY4htL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Scarlett entra em um espetáculo mágico onde nada é o que parece.",
+		"ano" : 2017
+	},
+	{
+		"id" : 34,
+		"nome" : "Lendário",
+		"autor" : "Stephanie Garber",
+		"paginas" : 384,
+		"url" : "https://m.media-amazon.com/images/I/81bcnpI92BL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Donatella embarca em uma nova rodada de Caraval cheia de apostas perigosas.",
+		"ano" : 2018
+	},
+	{
+		"id" : 35,
+		"nome" : "Finale",
+		"autor" : "Stephanie Garber",
+		"paginas" : 416,
+		"url" : "https://m.media-amazon.com/images/I/91xyJ8LjggL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "A conclusão da trilogia reúne magia, destino e romance.",
+		"ano" : 2019
+	},
+	{
+		"id" : 36,
+		"nome" : "Era Uma Vez Um Coração Partido",
+		"autor" : "Stephanie Garber",
+		"paginas" : 336,
+		"url" : "https://m.media-amazon.com/images/I/91tgztS06QL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Evangeline faz um acordo perigoso com o Príncipe de Copas.",
+		"ano" : 2021
+	},
+	{
+		"id" : 37,
+		"nome" : "A Balada dos Felizes para Nunca",
+		"autor" : "Stephanie Garber",
+		"paginas" : 416,
+		"url" : "https://m.media-amazon.com/images/I/91TuTFpkT1L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Evangeline tenta mudar seu destino enquanto lida com magia e maldições.",
+		"ano" : 2022
+	},
+	{
+		"id" : 38,
+		"nome" : "A Maldição do Verdadeiro Amor",
+		"autor" : "Stephanie Garber",
+		"paginas" : 384,
+		"url" : "https://m.media-amazon.com/images/I/91aSfaVMErL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "O destino de Evangeline chega ao clímax em uma conclusão mágica.",
+		"ano" : 2023
+	},
+	{
+		"id" : 39,
+		"nome" : "Anjo Mecânico",
+		"autor" : "Cassandra Clare",
+		"paginas" : 392,
+		"url" : "https://m.media-amazon.com/images/I/81sJuc5cCVL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Tessa descobre habilidades incomuns e entra no mundo dos Caçadores de Sombras.",
+		"ano" : 2010
+	},
+	{
+		"id" : 40,
+		"nome" : "Príncipe Mecânico",
+		"autor" : "Cassandra Clare",
+		"paginas" : 406,
+		"url" : "https://m.media-amazon.com/images/I/81NDOVLGASL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Tessa enfrenta ameaças sobrenaturais e conflitos amorosos.",
+		"ano" : 2011
+	},
+	{
+		"id" : 41,
+		"nome" : "Princesa Mecânica",
+		"autor" : "Cassandra Clare",
+		"paginas" : 448,
+		"url" : "https://m.media-amazon.com/images/I/81vKEL9DrfL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "No desfecho da trilogia, Tessa encara batalhas e escolhas dolorosas.",
+		"ano" : 2013
+	},
+	{
+		"id" : 42,
+		"nome" : "Cidade da Lua Crescente",
+		"autor" : "Sarah J. Maas",
+		"paginas" : 672,
+		"url" : "https://m.media-amazon.com/images/I/91IlTc+684L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Bryce tenta reconstruir a vida após uma tragédia e investiga crimes sobrenaturais.",
+		"ano" : 2020
+	},
+	{
+		"id" : 43,
+		"nome" : "Casa de Terra e Sangue",
+		"autor" : "Sarah J. Maas",
+		"paginas" : 672,
+		"url" : "https://m.media-amazon.com/images/I/91aIfr4PpBL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Bryce e Hunt investigam crimes e conspirações em Crescent City.",
+		"ano" : 2020
+	},
+	{
+		"id" : 44,
+		"nome" : "Casa de Céu e Sopro",
+		"autor" : "Sarah J. Maas",
+		"paginas" : 784,
+		"url" : "https://m.media-amazon.com/images/I/91aIfr4PpBL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Bryce encara novas dimensões, alianças e descobertas.",
+		"ano" : 2022
+	},
+	{
+		"id" : 45,
+		"nome" : "Casa de Chama e Sombra",
+		"autor" : "Sarah J. Maas",
+		"paginas" : 848,
+		"url" : "https://m.media-amazon.com/images/I/91l1zpNiyJL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Bryce enfrenta guerra iminente e consequências de escolhas passadas.",
+		"ano" : 2024
+	},
+	{
+		"id" : 46,
+		"nome" : "É Assim que Acaba",
+		"autor" : "Colleen Hoover",
+		"paginas" : 368,
+		"url" : "https://m.media-amazon.com/images/I/91r5G8RxqfL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Lily revive memórias dolorosas enquanto enfrenta um relacionamento abusivo.",
+		"ano" : 2016
+	},
+	{
+		"id" : 47,
+		"nome" : "É Assim que Começa",
+		"autor" : "Colleen Hoover",
+		"paginas" : 336,
+		"url" : "https://m.media-amazon.com/images/I/81Izv2GRWoL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Lily e Atlas tentam finalmente viver sua relação.",
+		"ano" : 2022
+	},
+	{
+		"id" : 48,
+		"nome" : "Novembro 9",
+		"autor" : "Colleen Hoover",
+		"paginas" : 352,
+		"url" : "https://m.media-amazon.com/images/I/917G-FdK2kL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Fallon e Ben se encontram todo ano na mesma data.",
+		"ano" : 2015
+	},
+	{
+		"id" : 49,
+		"nome" : "Verity",
+		"autor" : "Colleen Hoover",
+		"paginas" : 320,
+		"url" : "https://m.media-amazon.com/images/I/91SDZ2eUj+L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Lowen descobre manuscritos perturbadores ao aceitar um trabalho misterioso.",
+		"ano" : 2018
+	},
+	{
+		"id" : 50,
+		"nome" : "Até o Verão Terminar",
+		"autor" : "Colleen Hoover",
+		"paginas" : 336,
+		"url" : "https://m.media-amazon.com/images/I/81u8c5lziEL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Beyah passa o verão em um ambiente novo e conhece alguém transformador.",
+		"ano" : 2020
+	},
+	{
+		"id" : 51,
+		"nome" : "Uma Segunda Chance",
+		"autor" : "Colleen Hoover",
+		"paginas" : 320,
+		"url" : "https://m.media-amazon.com/images/I/813WvRoZ0HL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Uma história sobre reencontros e segundas chances no amor.",
+		"ano" : 2022
+	},
+	{
+		"id" : 52,
+		"nome" : "Tarde Demais",
+		"autor" : "Colleen Hoover",
+		"paginas" : 384,
+		"url" : "https://m.media-amazon.com/images/I/91Yi9uiB6yL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 18,
+		"sinopse" : "Sloan vive presa em um relacionamento perigoso e busca escapar.",
+		"ano" : 2016
+	},
+	{
+		"id" : 53,
+		"nome" : "Sem Esperança",
+		"autor" : "Colleen Hoover",
+		"paginas" : 304,
+		"url" : "https://m.media-amazon.com/images/I/91JEv0CG26L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Sky conhece Dean e descobre verdades chocantes sobre o passado.",
+		"ano" : 2012
+	},
+	{
+		"id" : 54,
+		"nome" : "O Lado Feio do Amor",
+		"autor" : "Colleen Hoover",
+		"paginas" : 336,
+		"url" : "https://m.media-amazon.com/images/I/81FEytag46L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Tate e Miles vivem uma relação intensa marcada por regras emocionais.",
+		"ano" : 2014
+	},
+	{
+		"id" : 55,
+		"nome" : "Um Caso Perdido",
+		"autor" : "Colleen Hoover",
+		"paginas" : 336,
+		"url" : "https://m.media-amazon.com/images/I/81BnNuSP4uL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Uma jovem tenta reconstruir a vida após perdas e traumas.",
+		"ano" : 2012
+	},
+	{
+		"id" : 56,
+		"nome" : "Todas as Suas Imperfeições",
+		"autor" : "Colleen Hoover",
+		"paginas" : 304,
+		"url" : "https://m.media-amazon.com/images/I/81Vhnel+xxL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Graham e Quinn enfrentam desafios reais dentro do casamento.",
+		"ano" : 2018
+	},
+	{
+		"id" : 57,
+		"nome" : "As Mil Partes do Meu Coração",
+		"autor" : "Colleen Hoover",
+		"paginas" : 336,
+		"url" : "https://m.media-amazon.com/images/I/814pUv-EGbL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Uma adolescente lida com luto, culpa e segredos familiares.",
+		"ano" : 2018
+	},
+	{
+		"id" : 58,
+		"nome" : "Confesse",
+		"autor" : "Colleen Hoover",
+		"paginas" : 320,
+		"url" : "https://m.media-amazon.com/images/I/819ss15qrkL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Auburn e Owen se conectam através de confissões anônimas.",
+		"ano" : 2015
+	},
+	{
+		"id" : 59,
+		"nome" : "Noiva",
+		"autor" : "Ali Hazelwood",
+		"paginas" : 400,
+		"url" : "https://m.media-amazon.com/images/I/812RDxFDd8L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Uma vampira e um lobisomem formam uma aliança improvável que muda seus destinos.",
+		"ano" : 2024
+	},
+	{
+		"id" : 60,
+		"nome" : "A Canção de Aquiles",
+		"autor" : "Madeline Miller",
+		"paginas" : 352,
+		"url" : "https://m.media-amazon.com/images/I/81y3XVe4JoL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Uma releitura emocionante da mitologia grega focada na relação entre Pátroclo e Aquiles durante a Guerra de Troia.",
+		"ano" : 2011
+	},
+	{
+		"id" : 61,
+		"nome" : "Assistente do Vilão",
+		"autor" : "Hannah Nicole Maehrer",
+		"paginas" : 352,
+		"url" : "https://m.media-amazon.com/images/I/81DkKVIavBL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Uma assistente acaba trabalhando para um vilão misterioso e perigoso, criando uma dinâmica divertida e romântica.",
+		"ano" : 2023
+	},
+	{
+		"id" : 62,
+		"nome" : "Aprendiz do Vilão",
+		"autor" : "Hannah Nicole Maehrer",
+		"paginas" : 384,
+		"url" : "https://m.media-amazon.com/images/I/81Q4iEvgkSL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "A continuação acompanha novas aventuras, romance e confusões envolvendo os protagonistas.",
+		"ano" : 2024
+	},
+	{
+		"id" : 63,
+		"nome" : "Herdeiro das Trevas",
+		"autor" : "S. A. Patrick",
+		"paginas" : 448,
+		"url" : "https://m.media-amazon.com/images/I/81aMTz266YL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Uma fantasia sombria com magia, heranças e forças obscuras ameaçando o reino.",
+		"ano" : 2021
+	},
+	{
+		"id" : 64,
+		"nome" : "Ascensão das Trevas",
+		"autor" : "S. A. Patrick",
+		"paginas" : 480,
+		"url" : "https://m.media-amazon.com/images/I/811jwwcitKL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "A jornada continua enquanto antigas ameaças retornam ainda mais fortes.",
+		"ano" : 2022
+	},
+	{
+		"id" : 65,
+		"nome" : "Jogos de Herança",
+		"autor" : "Jennifer Lynn Barnes",
+		"paginas" : 376,
+		"url" : "https://m.media-amazon.com/images/I/81dnxCIkncL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Avery herda uma fortuna bilionária e precisa resolver enigmas deixados por um excêntrico milionário.",
+		"ano" : 2020
+	},
+	{
+		"id" : 66,
+		"nome" : "O Herdeiro Perdido",
+		"autor" : "Jennifer Lynn Barnes",
+		"paginas" : 400,
+		"url" : "https://m.media-amazon.com/images/I/91nL6deptvL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Mistérios envolvendo a família Hawthorne continuam ainda mais perigosos.",
+		"ano" : 2021
+	},
+	{
+		"id" : 67,
+		"nome" : "A Aposta Final",
+		"autor" : "Jennifer Lynn Barnes",
+		"paginas" : 368,
+		"url" : "https://m.media-amazon.com/images/I/81y6opB9W+L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "A disputa final por respostas, herança e segredos chega ao ápice.",
+		"ano" : 2022
+	},
+	{
+		"id" : 68,
+		"nome" : "A Menina do Lago",
+		"autor" : "Charlie Donlea",
+		"paginas" : 296,
+		"url" : "https://m.media-amazon.com/images/I/81LRk6+p1HL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Uma jornalista investiga o assassinato de uma jovem em uma cidade cheia de segredos.",
+		"ano" : 2018
+	},
+	{
+		"id" : 69,
+		"nome" : "Lago dos Sonhos",
+		"autor" : "Kim Edwards",
+		"paginas" : 352,
+		"url" : "https://m.media-amazon.com/images/I/81y7SXLd2DL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Lucy retorna à cidade natal e confronta lembranças, perdas e antigos mistérios.",
+		"ano" : 2011
+	},
+	{
+		"id" : 70,
+		"nome" : "Os Dois Morrem no Final",
+		"autor" : "Adam Silvera",
+		"paginas" : 416,
+		"url" : "https://m.media-amazon.com/images/I/61QhNRjycfL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Dois adolescentes recebem a notícia de que morrerão em 24 horas e decidem viver intensamente.",
+		"ano" : 2017
+	},
+	{
+		"id" : 71,
+		"nome" : "Battle Royale",
+		"autor" : "Koushun Takami",
+		"paginas" : 664,
+		"url" : "https://m.media-amazon.com/images/I/81NGvQ0QxdL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 18,
+		"sinopse" : "Estudantes são forçados a participar de um jogo mortal de sobrevivência.",
+		"ano" : 1999
+	},
+	{
+		"id" : 72,
+		"nome" : "Conclave",
+		"autor" : "Penelope Douglas",
+		"paginas" : 352,
+		"url" : "https://m.media-amazon.com/images/I/81ULqUzT74L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 18,
+		"sinopse" : "Personagens de Devil’s Night retornam em uma trama intensa e adulta.",
+		"ano" : 2018
+	},
+	{
+		"id" : 73,
+		"nome" : "Punk 57",
+		"autor" : "Penelope Douglas",
+		"paginas" : 432,
+		"url" : "https://m.media-amazon.com/images/I/91KsZkUtV8L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 18,
+		"sinopse" : "Misha e Ryen mantêm amizade anônima até a realidade mudar tudo.",
+		"ano" : 2016
+	},
+	{
+		"id" : 74,
+		"nome" : "Birthday Girl",
+		"autor" : "Penelope Douglas",
+		"paginas" : 416,
+		"url" : "https://m.media-amazon.com/images/I/818iPdVS9XL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 18,
+		"sinopse" : "Jordan se envolve em um romance proibido e controverso.",
+		"ano" : 2018
+	},
+	{
+		"id" : 75,
+		"nome" : "Corrupt",
+		"autor" : "Penelope Douglas",
+		"paginas" : 448,
+		"url" : "https://m.media-amazon.com/images/I/91EEn1ZVw+L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 18,
+		"sinopse" : "Erika é puxada para jogos perigosos com Michael e seus amigos.",
+		"ano" : 2015
+	},
+	{
+		"id" : 76,
+		"nome" : "Hideaway",
+		"autor" : "Penelope Douglas",
+		"paginas" : 512,
+		"url" : "https://m.media-amazon.com/images/I/91Iym6-6xML._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 18,
+		"sinopse" : "Kai enfrenta traumas, obsessões e busca redenção.",
+		"ano" : 2017
+	},
+	{
+		"id" : 77,
+		"nome" : "Kill Switch",
+		"autor" : "Penelope Douglas",
+		"paginas" : 544,
+		"url" : "https://m.media-amazon.com/images/I/81WYivChzJS._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 18,
+		"sinopse" : "Damon protagoniza uma história sombria marcada por obsessão e redenção.",
+		"ano" : 2019
+	},
+	{
+		"id" : 78,
+		"nome" : "Nightfall",
+		"autor" : "Penelope Douglas",
+		"paginas" : 640,
+		"url" : "https://m.media-amazon.com/images/I/71QbHTPna7L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 18,
+		"sinopse" : "O encerramento da série Devil’s Night traz confrontos e resoluções finais.",
+		"ano" : 2020
+	},
+	{
+		"id" : 79,
+		"nome" : "Credence",
+		"autor" : "Penelope Douglas",
+		"paginas" : 480,
+		"url" : "https://m.media-amazon.com/images/I/81XTUIDHP+L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 18,
+		"sinopse" : "Tiernan vai viver isolada e se envolve em relações complexas.",
+		"ano" : 2020
+	},
+	{
+		"id" : 80,
+		"nome" : "O Acordo",
+		"autor" : "Elle Kennedy",
+		"paginas" : 360,
+		"url" : "https://m.media-amazon.com/images/I/81TDSCFj-FL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Hannah e Garrett fazem um acordo improvável que evolui para romance.",
+		"ano" : 2015
+	},
+	{
+		"id" : 81,
+		"nome" : "O Erro",
+		"autor" : "Elle Kennedy",
+		"paginas" : 360,
+		"url" : "https://m.media-amazon.com/images/I/816ewVxl5+L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Logan tenta conquistar Grace enquanto enfrenta problemas pessoais.",
+		"ano" : 2015
+	},
+	{
+		"id" : 82,
+		"nome" : "O Jogo",
+		"autor" : "Elle Kennedy",
+		"paginas" : 360,
+		"url" : "https://m.media-amazon.com/images/I/81LpW1376hL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Dean finalmente encontra alguém capaz de desafiar sua reputação.",
+		"ano" : 2016
+	},
+	{
+		"id" : 83,
+		"nome" : "A Conquista",
+		"autor" : "Elle Kennedy",
+		"paginas" : 360,
+		"url" : "https://m.media-amazon.com/images/I/81ZPHuAs4pL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Tucker e Sabrina vivem uma relação inesperada cheia de amadurecimento.",
+		"ano" : 2016
+	},
+	{
+		"id" : 84,
+		"nome" : "Sem Freio",
+		"autor" : "Simone Soltani",
+		"paginas" : 320,
+		"url" : "https://m.media-amazon.com/images/I/81mLOdgjhwL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Um romance esportivo leve acompanha personagens em meio a competição e sentimentos.",
+		"ano" : 2024
+	},
+	{
+		"id" : 85,
+		"nome" : "Virando o Jogo",
+		"autor" : "Grace Reilly",
+		"paginas" : 336,
+		"url" : "https://m.media-amazon.com/images/I/81zS56B7lqL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Um romance universitário mistura esportes, rivalidade e química entre protagonistas.",
+		"ano" : 2023
+	},
+	{
+		"id" : 86,
+		"nome" : "Jogo de Corpo",
+		"autor" : "Elle Kennedy",
+		"paginas" : 320,
+		"url" : "https://m.media-amazon.com/images/I/71F-L7ay7ML._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Mais uma história romântica esportiva cheia de humor e aproximação gradual.",
+		"ano" : 2023
+	},
+	{
+		"id" : 87,
+		"nome" : "A Mecânica do Amor",
+		"autor" : "Alexene Farol Follmuth",
+		"paginas" : 352,
+		"url" : "https://m.media-amazon.com/images/I/71DPuiRWNqL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Bel entra para um clube de robótica e cria uma conexão inesperada com Teo.",
+		"ano" : 2022
+	},
+	{
+		"id" : 88,
+		"nome" : "Imperfeitos",
+		"autor" : "Christina Lauren",
+		"paginas" : 368,
+		"url" : "https://m.media-amazon.com/images/I/616U6mSP3lL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Dois inimigos precisam dividir férias e acabam se aproximando romanticamente.",
+		"ano" : 2020
+	},
+	{
+		"id" : 89,
+		"nome" : "Um Amor Sem Freio",
+		"autor" : "Simone Soltani",
+		"paginas" : 320,
+		"url" : "https://m.media-amazon.com/images/I/81yzw69-L8L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Uma história leve de romance com ambientação esportiva e personagens carismáticos.",
+		"ano" : 2024
+	},
+	{
+		"id" : 90,
+		"nome" : "Beijo da Neve",
+		"autor" : "Babi A. Sette",
+		"paginas" : 280,
+		"url" : "https://m.media-amazon.com/images/I/91QduANJ06L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Um romance nacional ambientado no gelo mistura sonhos, superação e sentimentos.",
+		"ano" : 2023
+	},
+	{
+		"id" : 91,
+		"nome" : "Nevernight",
+		"autor" : "Jay Kristoff",
+		"paginas" : 448,
+		"url" : "https://m.media-amazon.com/images/I/91TU6-b+QKL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Mia Corvere entra para uma escola de assassinos buscando vingança contra aqueles que destruíram sua família.",
+		"ano" : 2016
+	},
+	{
+		"id" : 92,
+		"nome" : "Godsgrave",
+		"autor" : "Jay Kristoff",
+		"paginas" : 480,
+		"url" : "https://m.media-amazon.com/images/I/91C2Ktyxt7L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Mia continua sua busca por vingança em arenas e jogos mortais.",
+		"ano" : 2017
+	},
+	{
+		"id" : 93,
+		"nome" : "Darkdawn",
+		"autor" : "Jay Kristoff",
+		"paginas" : 544,
+		"url" : "https://m.media-amazon.com/images/I/91y3vsorq-L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "A trilogia chega ao fim com revelações, vingança e confrontos finais.",
+		"ano" : 2019
+	},
+	{
+		"id" : 94,
+		"nome" : "De Sangue e Cinzas",
+		"autor" : "Jennifer L. Armentrout",
+		"paginas" : 640,
+		"url" : "https://m.media-amazon.com/images/I/81rsA7hMcsL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Poppy vive destinada a um papel sagrado, mas começa a questionar tudo ao conhecer Hawke.",
+		"ano" : 2020
+	},
+	{
+		"id" : 95,
+		"nome" : "Reino de Carne e Fogo",
+		"autor" : "Jennifer L. Armentrout",
+		"paginas" : 672,
+		"url" : "https://m.media-amazon.com/images/I/91YxRg3umCL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Poppy e Casteel enfrentam novas ameaças e descobertas sobre linhagem e poder.",
+		"ano" : 2020
+	},
+	{
+		"id" : 96,
+		"nome" : "A Coroa de Ossos Dourados",
+		"autor" : "Jennifer L. Armentrout",
+		"paginas" : 704,
+		"url" : "https://m.media-amazon.com/images/I/91izqT4CK5L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "A guerra se aproxima enquanto Poppy entende melhor sua origem e destino.",
+		"ano" : 2021
+	},
+	{
+		"id" : 97,
+		"nome" : "A Guerra das Duas Rainhas",
+		"autor" : "Jennifer L. Armentrout",
+		"paginas" : 736,
+		"url" : "https://m.media-amazon.com/images/I/91uivowF+LL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Conflitos políticos e divinos elevam ainda mais as apostas da série.",
+		"ano" : 2022
+	},
+	{
+		"id" : 98,
+		"nome" : "Desafia-me",
+		"autor" : "Tahereh Mafi",
+		"paginas" : 352,
+		"url" : "https://m.media-amazon.com/images/I/81zU4KTGfPL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Juliette tenta se adaptar ao poder e às novas responsabilidades.",
+		"ano" : 2017
+	},
+	{
+		"id" : 99,
+		"nome" : "Restaura-me",
+		"autor" : "Tahereh Mafi",
+		"paginas" : 384,
+		"url" : "https://m.media-amazon.com/images/I/71FxwdX4v1L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Juliette precisa liderar enquanto enfrenta ameaças emocionais e políticas.",
+		"ano" : 2018
+	},
+	{
+		"id" : 100,
+		"nome" : "Liberta-me",
+		"autor" : "Tahereh Mafi",
+		"paginas" : 352,
+		"url" : "https://m.media-amazon.com/images/I/81QXzYLzpLL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Juliette encara novas batalhas e alianças decisivas.",
+		"ano" : 2014
+	},
+	{
+		"id" : 101,
+		"nome" : "Incendeia-me",
+		"autor" : "Tahereh Mafi",
+		"paginas" : 352,
+		"url" : "https://m.media-amazon.com/images/I/81yPJu-ltGL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "A luta contra o Restabelecimento atinge níveis críticos.",
+		"ano" : 2014
+	},
+	{
+		"id" : 102,
+		"nome" : "Estilhaça-me",
+		"autor" : "Tahereh Mafi",
+		"paginas" : 304,
+		"url" : "https://m.media-amazon.com/images/I/71P-Mok4cqL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Juliette possui um toque letal e vive isolada até ser usada como arma.",
+		"ano" : 2011
+	},
+	{
+		"id" : 103,
+		"nome" : "Imagina-me",
+		"autor" : "Tahereh Mafi",
+		"paginas" : 320,
+		"url" : "https://m.media-amazon.com/images/I/81bZ+S+2rVL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "O encerramento da série traz decisões finais e grandes revelações.",
+		"ano" : 2020
+	},
+	{
+		"id" : 104,
+		"nome" : "Asfalto Maldito",
+		"autor" : "S. A. Cosby",
+		"paginas" : 320,
+		"url" : "https://m.media-amazon.com/images/I/91Lo5EvCaDL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Um suspense policial brutal envolvendo vingança, violência e investigação.",
+		"ano" : 2023
+	},
+	{
+		"id" : 105,
+		"nome" : "O Assassinato no Expresso do Oriente",
+		"autor" : "Agatha Christie",
+		"paginas" : 240,
+		"url" : "https://m.media-amazon.com/images/I/81Zp6MFxIDL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 12,
+		"sinopse" : "Poirot investiga um assassinato em um luxuoso trem preso na neve.",
+		"ano" : 1934
+	},
+	{
+		"id" : 106,
+		"nome" : "A Mão Misteriosa",
+		"autor" : "Agatha Christie",
+		"paginas" : 224,
+		"url" : "https://m.media-amazon.com/images/I/81jD27fFFeL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 12,
+		"sinopse" : "Miss Marple investiga cartas anônimas e segredos em uma pequena cidade.",
+		"ano" : 1942
+	},
+	{
+		"id" : 107,
+		"nome" : "Uma Família Feliz",
+		"autor" : "Raphael Montes",
+		"paginas" : 224,
+		"url" : "https://m.media-amazon.com/images/I/81WjGu5a5ZL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Uma família aparentemente perfeita esconde conflitos e tensões perturbadoras.",
+		"ano" : 2024
+	},
+	{
+		"id" : 108,
+		"nome" : "Jantar Secreto",
+		"autor" : "Raphael Montes",
+		"paginas" : 368,
+		"url" : "https://m.media-amazon.com/images/I/71AeB1+8dZL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 18,
+		"sinopse" : "Quatro amigos universitários se envolvem em um pacto sombrio e canibalismo.",
+		"ano" : 2016
+	},
+	{
+		"id" : 109,
+		"nome" : "Suicidas",
+		"autor" : "Raphael Montes",
+		"paginas" : 432,
+		"url" : "https://m.media-amazon.com/images/I/81XqiNjr5OL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 18,
+		"sinopse" : "Participantes de um jogo macabro revelam segredos e histórias traumáticas.",
+		"ano" : 2012
+	},
+	{
+		"id" : 110,
+		"nome" : "O Vilarejo",
+		"autor" : "Raphael Montes",
+		"paginas" : 96,
+		"url" : "https://m.media-amazon.com/images/I/81JaIN9NExL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Contos curtos de terror exploram pecados humanos e horror psicológico.",
+		"ano" : 2015
+	},
+	{
+		"id" : 111,
+		"nome" : "Ninguém Vai Te Ouvir Gritar",
+		"autor" : "Mark Miller",
+		"paginas" : 320,
+		"url" : "https://m.media-amazon.com/images/I/81Jz5PrvZFL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Um thriller de suspense acompanha crimes brutais e uma investigação cheia de tensão.",
+		"ano" : 2023
+	},
+	{
+		"id" : 112,
+		"nome" : "Viúva de Ferro",
+		"autor" : "Xiran Jay Zhao",
+		"paginas" : 400,
+		"url" : "https://m.media-amazon.com/images/I/71nmEXuiNnL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Zetian entra em uma guerra futurista e decide desafiar um sistema opressor e patriarcal.",
+		"ano" : 2021
+	},
+	{
+		"id" : 113,
+		"nome" : "Promessas Cruéis",
+		"autor" : "Rebecca Ross",
+		"paginas" : 448,
+		"url" : "https://m.media-amazon.com/images/I/81ldnvmlicL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Uma fantasia romântica marcada por cartas, guerra e conexão entre protagonistas.",
+		"ano" : 2024
+	},
+	{
+		"id" : 114,
+		"nome" : "Divinos Rivais",
+		"autor" : "Rebecca Ross",
+		"paginas" : 432,
+		"url" : "https://m.media-amazon.com/images/I/81UkZV9mfEL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Dois jornalistas rivais trocam cartas em meio a uma guerra entre deuses.",
+		"ano" : 2023
+	},
+	{
+		"id" : 115,
+		"nome" : "A Escrita na Parede",
+		"autor" : "Maureen Johnson",
+		"paginas" : 336,
+		"url" : "https://m.media-amazon.com/images/I/81ScMo8r0gL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Stevie Bell investiga um antigo caso de desaparecimento em uma escola de elite.",
+		"ano" : 2018
+	},
+	{
+		"id" : 116,
+		"nome" : "A Escada Furtiva",
+		"autor" : "Maureen Johnson",
+		"paginas" : 352,
+		"url" : "https://m.media-amazon.com/images/I/816hMMbZ+uL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "A investigação continua enquanto Stevie se aproxima da verdade.",
+		"ano" : 2019
+	},
+	{
+		"id" : 117,
+		"nome" : "Cordialmente Cruel",
+		"autor" : "Maureen Johnson",
+		"paginas" : 352,
+		"url" : "https://m.media-amazon.com/images/I/81BWBYOMR2L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Mistérios e assassinatos levam Stevie a novas descobertas perigosas.",
+		"ano" : 2020
+	},
+	{
+		"id" : 118,
+		"nome" : "Poseidon",
+		"autor" : "Anna Banks",
+		"paginas" : 288,
+		"url" : "https://m.media-amazon.com/images/I/91RQj7NcV3L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Emma descobre ser descendente de sereias e mergulha em conflitos sobrenaturais.",
+		"ano" : 2012
+	},
+	{
+		"id" : 119,
+		"nome" : "Trono de Penas e Ossos",
+		"autor" : "Shannon Mayer",
+		"paginas" : 288,
+		"url" : "https://m.media-amazon.com/images/I/81pK476xTsL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Uma fantasia sombria mistura realeza, magia e intrigas mortais.",
+		"ano" : 2024
+	},
+	{
+		"id" : 120,
+		"nome" : "Corte de Mel e Cinzas",
+		"autor" : "Shannon Mayer",
+		"paginas" : 288,
+		"url" : "https://m.media-amazon.com/images/I/91wcWf8XlBL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "A continuação aprofunda disputas políticas, magia e relações complexas.",
+		"ano" : 2024
+	},
+	{
+		"id" : 121,
+		"nome" : "Caçadores de Bruxas",
+		"autor" : "Raphael Draccon",
+		"paginas" : 440,
+		"url" : "https://m.media-amazon.com/images/I/91jd4E3tC0L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Bruxas e caçadores entram em conflito em uma fantasia cheia de magia e ação.",
+		"ano" : 2017
+	},
+	{
+		"id" : 122,
+		"nome" : "Em Rota de Colisão",
+		"autor" : "Bal Khabra",
+		"paginas" : 448,
+		"url" : "https://m.media-amazon.com/images/I/71PJ9yPc9nL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Um romance esportivo mistura rivalidade, tensão e aproximação gradual.",
+		"ano" : 2024
+	},
+	{
+		"id" : 123,
+		"nome" : "Cutelo e Corvo",
+		"autor" : "Brynne Weaver",
+		"paginas" : 320,
+		"url" : "https://m.media-amazon.com/images/I/81dfmzsNDwL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 18,
+		"sinopse" : "Uma comédia romântica dark mistura humor ácido, tensão e assassinatos.",
+		"ano" : 2024
+	},
+	{
+		"id" : 124,
+		"nome" : "Canção dos Ossos",
+		"autor" : "Giu Domingues",
+		"paginas" : 448,
+		"url" : "https://m.media-amazon.com/images/I/91BnOiDxpcL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Uma fantasia jovem acompanha mistérios envolvendo música, magia e ossos antigos.",
+		"ano" : 2024
+	},
+	{
+		"id" : 125,
+		"nome" : "Sapatilhas de Gelo",
+		"autor" : "Babi A. Sette",
+		"paginas" : 392,
+		"url" : "https://m.media-amazon.com/images/I/81ywVJPVbXL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Um romance ambientado no gelo acompanha superação e conexões emocionais.",
+		"ano" : 2024
+	},
+	{
+		"id" : 126,
+		"nome" : "Proibido",
+		"autor" : "Tabitha Suzuma",
+		"paginas" : 304,
+		"url" : "https://m.media-amazon.com/images/I/91N5dvMOl4L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Uma história controversa explora relações proibidas e consequências emocionais.",
+		"ano" : 2010
+	},
+	{
+		"id" : 127,
+		"nome" : "Trono Destruído",
+		"autor" : "Victoria Aveyard",
+		"paginas" : 504,
+		"url" : "https://m.media-amazon.com/images/I/81nwkac3N2L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Contos extras e expansões do universo de Rainha Vermelha.",
+		"ano" : 2019
+	},
+	{
+		"id" : 128,
+		"nome" : "Tempestade de Guerra",
+		"autor" : "Victoria Aveyard",
+		"paginas" : 700,
+		"url" : "https://m.media-amazon.com/images/I/81yS2gZweiL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "A guerra final coloca Mare diante de escolhas difíceis e perdas inevitáveis.",
+		"ano" : 2018
+	},
+	{
+		"id" : 129,
+		"nome" : "A Prisão do Rei",
+		"autor" : "Victoria Aveyard",
+		"paginas" : 538,
+		"url" : "https://m.media-amazon.com/images/I/91OjGPgKvPL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Mare é capturada e enfrenta manipulações, prisão e desafios internos.",
+		"ano" : 2017
+	},
+	{
+		"id" : 130,
+		"nome" : "Espada de Vidro",
+		"autor" : "Victoria Aveyard",
+		"paginas" : 496,
+		"url" : "https://m.media-amazon.com/images/I/81ewgI0ylSL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Mare continua lutando contra a elite em meio a rebelião e descobertas.",
+		"ano" : 2016
+	},
+	{
+		"id" : 131,
+		"nome" : "A Rainha Vermelha",
+		"autor" : "Victoria Aveyard",
+		"paginas" : 422,
+		"url" : "https://m.media-amazon.com/images/I/718rKQisF7L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Mare descobre seus poderes em um mundo dividido entre sangues vermelhos e prateados.",
+		"ano" : 2015
+	},
+	{
+		"id" : 132,
+		"nome" : "Reino de Cinzas",
+		"autor" : "Sarah J. Maas",
+		"paginas" : 938,
+		"url" : "https://m.media-amazon.com/images/I/81Ld8RC0CmL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Aelin enfrenta sua batalha final para salvar Terrasen e seu povo.",
+		"ano" : 2018
+	},
+	{
+		"id" : 133,
+		"nome" : "Torre do Alvorecer",
+		"autor" : "Sarah J. Maas",
+		"paginas" : 644,
+		"url" : "https://m.media-amazon.com/images/I/91H+67JhFUL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Chaol embarca em uma jornada de cura e descobertas políticas.",
+		"ano" : 2018
+	},
+	{
+		"id" : 134,
+		"nome" : "Império de Tempestades",
+		"autor" : "Sarah J. Maas",
+		"paginas" : 658,
+		"url" : "https://m.media-amazon.com/images/I/91g0yJEArvL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Aelin reúne aliados para enfrentar ameaças crescentes ao reino.",
+		"ano" : 2017
+	},
+	{
+		"id" : 135,
+		"nome" : "Rainha das Sombras",
+		"autor" : "Sarah J. Maas",
+		"paginas" : 644,
+		"url" : "https://m.media-amazon.com/images/I/81nK4Yiz8SL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Aelin retorna para confrontar conspirações e fortalecer seu poder.",
+		"ano" : 2016
+	},
+	{
+		"id" : 136,
+		"nome" : "Quem Me Dera Ser Onda",
+		"autor" : "Manuel Rui",
+		"paginas" : 74,
+		"url" : "https://m.media-amazon.com/images/I/71BHkI70L7L._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 12,
+		"sinopse" : "Uma sátira divertida acompanha uma família e seu porco tratado como gente.",
+		"ano" : 1982
+	},
+	{
+		"id" : 137,
+		"nome" : "Grogue",
+		"autor" : "Toni Brandao",
+		"paginas" : 150,
+		"url" : "https://m.media-amazon.com/images/I/61R7B4kqarL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 12,
+		"sinopse" : "Livro juvenil que aborda conflitos familiares e amadurecimento.",
+		"ano" : 2000
+	},
+	{
+		"id" : 138,
+		"nome" : "Senhor das Sombras",
+		"autor" : "Cassandra Clare",
+		"paginas" : 616,
+		"url" : "https://m.media-amazon.com/images/I/81+YgONhrjL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Emma Carstairs investiga assassinatos em uma trama sobrenatural cheia de segredos.",
+		"ano" : 2017
+	},
+	{
+		"id" : 139,
+		"nome" : "Rainha do Ar e da Escuridão",
+		"autor" : "Cassandra Clare",
+		"paginas" : 728,
+		"url" : "https://m.media-amazon.com/images/I/81Csapx23nL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "O conflito final da trilogia traz revelações e batalhas decisivas.",
+		"ano" : 2018
+	},
+	{
+		"id" : 140,
+		"nome" : "Dama da Meia-Noite",
+		"autor" : "Cassandra Clare",
+		"paginas" : 588,
+		"url" : "https://m.media-amazon.com/images/I/814w4i1bsjL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Emma mergulha em conspirações e mistérios no universo dos Caçadores de Sombras.",
+		"ano" : 2016
+	},
+	{
+		"id" : 141,
+		"nome" : "Cai o Pano",
+		"autor" : "Agatha Christie",
+		"paginas" : 224,
+		"url" : "https://m.media-amazon.com/images/I/71oB8A0J-vL._AC_UL480_FMwebp_QL65_.jpg",
+		"idade_ideal" : 12,
+		"sinopse" : "Poirot retorna para resolver seu último caso em uma investigação clássica e cheia de tensão.",
+		"ano" : 1975
+	},
+	{
+		"id" : 142,
+		"nome" : "Em Busca de Cinderela / Em Busca da Perfeição",
+		"autor" : "Colleen Hoover",
+		"paginas" : 256,
+		"url" : "https://m.media-amazon.com/images/I/91hnhxCy8LL._SY425_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Duas novelas românticas de Colleen Hoover reunidas em uma edição especial sobre amor e amadurecimento.",
+		"ano" : 2019
+	},
+	{
+		"id" : 143,
+		"nome" : "Uma Conjuração de Luz",
+		"autor" : "V. E. Schwab",
+		"paginas" : 748,
+		"url" : "https://m.media-amazon.com/images/I/91fuAU8ktIL._AC_UY327_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Kell, Lila e Rhy enfrentam uma ameaça capaz de destruir todos os mundos paralelos.",
+		"ano" : 2017
+	},
+	{
+		"id" : 144,
+		"nome" : "Um Encontro de Sombras",
+		"autor" : "V. E. Schwab",
+		"paginas" : 564,
+		"url" : "https://m.media-amazon.com/images/I/71kWbMJhi9L._AC_UY327_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Kell participa de uma competição mágica enquanto uma nova ameaça cresce.",
+		"ano" : 2016
+	},
+	{
+		"id" : 145,
+		"nome" : "Um Tom Mais Escuro de Magia",
+		"autor" : "V. E. Schwab",
+		"paginas" : 428,
+		"url" : "https://m.media-amazon.com/images/I/717WCPfOm6L._AC_UY327_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Kell pode viajar entre diferentes Londres e acaba envolvido em magia proibida.",
+		"ano" : 2015
+	},
+	{
+		"id" : 146,
+		"nome" : "Vingança",
+		"autor" : "V. E. Schwab",
+		"paginas" : 532,
+		"url" : "https://m.media-amazon.com/images/I/81-oAGI+lML._AC_UY327_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Victor Vale e Eli Ever desenvolvem habilidades extraordinárias e se tornam rivais perigosos.",
+		"ano" : 2018
+	},
+	{
+		"id" : 147,
+		"nome" : "Vilão",
+		"autor" : "V. E. Schwab",
+		"paginas" : 364,
+		"url" : "https://m.media-amazon.com/images/I/81dKmN4z0bL._AC_UY327_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Victor e Eli exploram moralidade, poder e vingança em uma fantasia sombria.",
+		"ano" : 2013
+	},
+	{
+		"id" : 148,
+		"nome" : "Uma Farsa de Amor na Espanha",
+		"autor" : "Elena Armas",
+		"paginas" : 448,
+		"url" : "https://m.media-amazon.com/images/I/71SliYa-JkL._AC_UY327_FMwebp_QL65_.jpg",
+		"idade_ideal" : 14,
+		"sinopse" : "Catalina e Aaron fingem um relacionamento durante uma viagem para um casamento.",
+		"ano" : 2021
+	},
+	{
+		"id" : 149,
+		"nome" : "A Quadra Raio de Sol",
+		"autor" : "Nora Sakavic",
+		"paginas" : 364,
+		"url" : "https://m.media-amazon.com/images/I/61TpDjNdZrL._AC_UY327_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Neil Josten entra para um time universitário enquanto foge de seu passado criminoso.",
+		"ano" : 2014
+	},
+	{
+		"id" : 150,
+		"nome" : "Os Homens do Rei",
+		"autor" : "Nora Sakavic",
+		"paginas" : 462,
+		"url" : "https://m.media-amazon.com/images/I/71dSmAgYztL._AC_UY327_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Neil enfrenta ameaças crescentes enquanto sua verdadeira identidade corre risco.",
+		"ano" : 2014
+	},
+	{
+		"id" : 151,
+		"nome" : "O Rei Corvo",
+		"autor" : "Nora Sakavic",
+		"paginas" : 364,
+		"url" : "https://m.media-amazon.com/images/I/71qg3xEutlL._AC_UY327_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "A conclusão da trilogia traz confrontos finais, segredos revelados e sobrevivência.",
+		"ano" : 2014
+	},
+	{
+		"id" : 152,
+		"nome" : "A Toca das Raposas",
+		"autor" : "Nora Sakavic",
+		"paginas" : 294,
+		"url" : "https://m.media-amazon.com/images/I/71Dx9tdvtjL._AC_UY327_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Neil se junta aos Foxes e tenta sobreviver escondendo quem realmente é.",
+		"ano" : 2013
+	},
+	{
+		"id" : 153,
+		"nome" : "Herdeira do Fogo",
+		"autor" : "Sarah J. Maas",
+		"paginas" : 518,
+		"url" : "https://m.media-amazon.com/images/I/81z-fUzRFxL._AC_UY327_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Aelin aceita seu destino e fortalece seus poderes rumo a batalhas maiores.",
+		"ano" : 2014
+	},
+	{
+		"id" : 154,
+		"nome" : "Coroa da Meia-Noite",
+		"autor" : "Sarah J. Maas",
+		"paginas" : 406,
+		"url" : "https://m.media-amazon.com/images/I/814x0T5JlsL._AC_UY327_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Celaena retorna para confrontar conspirações e descobrir verdades ocultas.",
+		"ano" : 2013
+	},
+	{
+		"id" : 155,
+		"nome" : "A Lâmina da Assassina",
+		"autor" : "Sarah J. Maas",
+		"paginas" : 406,
+		"url" : "https://m.media-amazon.com/images/I/811uc+0NcGL._AC_UY327_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Contos que exploram aventuras anteriores de Celaena Sardothien antes da saga principal.",
+		"ano" : 2014
+	}
+]

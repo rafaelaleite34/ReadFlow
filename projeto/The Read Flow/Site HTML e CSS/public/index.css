@@ -1,0 +1,246 @@
+    *{
+        margin: 0;
+        scroll-behavior: smooth;
+        text-decoration: none;
+    }
+
+    /* #497dcb */
+
+    .banner {
+        background-image: url("./imagens/fundo-azul.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 8rem;
+        position: relative;
+    }
+    .imgfundo {
+        display: flex; 
+        align-items: center;
+    }
+
+    .imgLogo {
+        width: 20rem;
+        height: 20rem;
+        margin-top: -2rem;  
+        margin-left: -180%;
+
+    }
+
+    .navbar {
+        bottom: -10px;
+        left: 0;
+        height: 2px;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        margin-top: -14rem;
+        margin-left: 50%;  
+        gap: 2rem;
+        font-size: 1.2rem;
+        margin-right: 3rem;
+        
+        
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    .btn-enter{
+        background-color: white;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        padding-right: 1rem;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-radius: 5cqb;
+        /* color: red; */
+        margin-top: -0.5rem;   
+    }
+
+    .cor {
+        color: #497dcb;
+    }
+
+    .btn-enter p {
+        color: #497dcb;
+        font-weight: bold;
+    }
+
+    .imgLivroL {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .texto{
+        width: 100%;
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .buttonC {
+        background-color: white;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        padding-right: 1rem;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-radius: 5cqb;
+        color: #497dcb;
+        position: absolute;
+        bottom: 15px; 
+        margin-left: -80px;
+        font-weight: bold; /* negrito */
+        transition: transform 0.3s ease;
+
+    }
+
+    .buttonC:hover{
+        transform: scale(1.1);
+    }
+
+    .boneco{
+        position: absolute;
+        bottom: -100px; 
+        right: 0; 
+    }
+
+    .boneco img {
+        width: 290px;
+    }
+
+    .subtitulo {
+        width: 100%;
+        text-align: center;
+        color: #497dcb;
+        margin-top: 80px;
+        font-size: 55px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .containerCorpo {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    margin: auto;
+    }
+
+    .card {
+        width: 300px;
+        max-height: 90%;
+        padding: 15px;
+        background-color: #ffffff;
+        border: solid 5px #497dcb;
+        border-radius: 30px;
+        margin: 40px 30px;
+        transition: transform 0.3s ease;
+    }
+
+    .card:hover{
+        transform: scale(1.1);
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    .card h1 {
+        font-size: 20px;
+        color: #497dcb;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+.card p {
+        font-size: 20px;
+        color: #080808;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+
+}
+
+.sobrenos {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.oval {
+    background-color: #4f83d8;
+    width: 780px;
+    padding: 50px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 120px;
+}
+
+.oval h1 {
+    font-size: 28px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4;
+}
+
+.imagemO {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagemO img {
+    width: 650px;
+    height: auto;
+}
+
+    .logoAz {
+        padding-left: 50px;
+    }
+
+    .final {
+        width: 100%; 
+        height: 100px;
+        background-color: #497dcb;
+    }
+
+    .final h1 {
+        color: #ffffff;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .tela {
+        display: flex;
+        height: auto;
+    }
+
+    .lado {
+        width: 50%; 
+    }
+
+
+
+
+

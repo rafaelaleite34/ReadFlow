@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="cadastro.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./cadastro.css">
+
+    <title>Cadastro - The Read Flow</title>
+</head>
+<body>
+<div class="tela">
+
+    <div class="lado azul">
+    <a class="btnVoltar" href="index.html">VOLTAR</a>
+        <img class="imgL" src="./imagens/logo-azul.png" alt="Logo">
+    </div>
+
+    <div class="lado branco">
+        <h1>Cadastre-se e comece a usar!</h1>
+        <p>Digite o seu nome completo:</p>
+        <input id="nome_input" type="text" placeholder=" Nome completo">
+        <div class="div1" id="div_mensagem1"></div>
+        <p>Digite sua data de nascimento:</p>
+        <input id="data_input" type="date" placeholder=" Data de nascimento">
+        <div class="div1" id="div_mensagem2"></div>
+        <p>Digite o seu e-mail:</p>
+        <input id="email_input" type="text" placeholder=" Login">
+        <div class="div1" id="div_mensagem3"></div>
+        <p>Digite sua senha:</p>
+        <input id="senha_input" type="password" placeholder=" **********">
+        <div class="div1" id="div_mensagem4"></div>
+        <p>Digite sua senha novamente:</p>
+        <input id="senha2_input" type="password" placeholder=" **********">
+        <div class="div1" id="div_mensagem5"></div>
+        <button onclick="cadastrar()" class="botaoC">CADASTRAR</button>
+        <div class="texto">
+            Já possui cadastro? <a href="login.html"><span class="span">CLIQUE AQUI</span></a>
+        </div>
+
+        
+</div>
+</body>
+</html>
+<script>
+   function cadastrar() {
+    let nome = nome_input.value;
+    let data = data_input.value;
+    let email = email_input.value;
+    let senha = senha_input.value;
+    let senha2 = senha2_input.value;
+    let erro = false;
+
+    let regexSenha = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]).{8,}$/;
+
+    if (nome.length <= 8 ) {
+        div_mensagem1.innerHTML = "Insira seu nome completo.";
+        erro = true;
+    }
+
+    if (data === "") {
+        div_mensagem2.innerHTML = "Data de nascimento inválida!";
+        erro = true;
+    }
+    if (email.indexOf("@") === -1 || email.indexOf(".") === -1) {
+        div_mensagem3.innerHTML = "Email inválido!";
+        erro = true;
+    }
+
+    if (!regexSenha.test(senha)) {
+        div_mensagem4.innerHTML = "Sua senha deve conter no mínimo 8 caracteres, incluindo uma letra maiúscula, uma letra minúscula, um número e um caractere especial.";
+        erro = true;
+    }
+
+    if (senha !== senha2) {
+        div_mensagem5.innerHTML = "Senhas não coincidem!";
+        erro = true;
+    }
+    
+
+    // if (erro === false) {
+    //     alert("Seu cadastro foi realizado com sucesso! Você será redirecionado para a tela de login!");
+    //     location.href = "login.html";
+    // }
+
+     
+    // Enviando o valor da nova input
+
+    if(!erro){
+
+      fetch("/usuarios/cadastrar", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          // crie um atributo que recebe o valor recuperado aqui
+          // Agora vá para o arquivo routes/usuario.js
+          nomeServer: nome,
+          dataServer: data,
+          emailServer: email,
+          senhaServer: senha,
+        }),
+      })
+      .then(function (resposta) {
+        console.log("resposta: ", resposta);
+        
+        if (resposta.ok) {
+          // cardErro.style.display = "block";
+          
+          // mensagem_erro.innerHTML =
+          // "Cadastro realizado com sucesso! Redirecionando para tela de Login...";
+          alert("Seu cadastro foi realizado com sucesso! Você será redirecionado para a tela de login!");
+          
+          setTimeout(() => {
+            window.location = "login.html";
+          }, "2000");
+          
+          // limparFormulario();
+          // finalizarAguardar();
+        } else {
+          throw "Houve um erro ao tentar realizar o cadastro!";
+        }
+      })
+      .catch(function (resposta) {
+        console.log(`#ERRO: ${resposta}`);
+        // finalizarAguardar();
+      });
+      
+      return false;
+      
+    }
+
+  // function sumirMensagem() {
+  //   cardErro.style.display = "none";
+  // }
+}
+
+
+  
+</script>
