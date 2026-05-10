@@ -1,0 +1,48 @@
+create database thereadflow;
+use thereadflow;
+
+CREATE TABLE usuario (
+   id int NOT NULL AUTO_INCREMENT,
+   nome varchar(45) NOT NULL,
+   dataN date NOT NULL,
+   email varchar(80) NOT NULL,
+   senha varchar(20) NOT NULL,
+   PRIMARY KEY (id)
+ );
+ 
+  CREATE TABLE livro (
+   id int NOT NULL AUTO_INCREMENT,
+   nome varchar(50) DEFAULT NULL,
+   autor varchar(50) DEFAULT NULL,
+   paginas int DEFAULT NULL,
+   url varchar(500) DEFAULT NULL,
+   idade_ideal int DEFAULT NULL,
+   sinopse varchar(1000),
+   ano int,
+   genero varchar(60),
+   saga varchar(100),
+   PRIMARY KEY (id)
+ );
+ 
+
+CREATE TABLE leitura (
+   dataL date DEFAULT NULL,
+   resenha varchar(10000) DEFAULT NULL,
+   avaliacao int DEFAULT NULL,
+   streak int DEFAULT NULL,
+   fkusuario int DEFAULT NULL,
+   fklivros int DEFAULT NULL,
+   KEY fkusuario (fkusuario),
+   KEY fklivros (fklivros),
+   CONSTRAINT leiturs_ibfk_1 FOREIGN KEY (fkusuario) REFERENCES usuario (id),
+   CONSTRAINT leitura_ibfk_2 FOREIGN KEY (fklivros) REFERENCES livro (id),
+   CONSTRAINT chk_avaliacao CHECK (((avaliacao >= 1) and (avaliacao <= 5)))
+ );
+ 
+CREATE TABLE quizzes (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    saga VARCHAR(50) NOT NULL,
+    pontos INT NOT NULL,
+    fk_usuario INT,
+    FOREIGN KEY (fk_usuario) REFERENCES usuario(id)
+);
