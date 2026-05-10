@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="quiz2.css">
+    <title>Document</title>
+</head>
+<body>
+    <a href="../paginaInicial.html" class="voltar">VOLTAR</a>
+    <div class="app">
+    <h1>QUIZ - TUDO PELO JOGO</h1>
+   <div id="respostas" class="quiz">
+    <h2 id="questao2">questao</h2>
+    <div id="alternativas2">
+        <button class="btn"> resp 1</button>
+        <button class="btn"> resp 2</button>
+        <button class="btn"> resp 3</button>
+        <button class="btn"> resp 4</button>
+        </div>
+   </div>
+    <button onclick="proximaP()" id="proximaP2" class="proxP">PROXIMA PERGUNTA</button>
+</body>
+</html>
+<script src="quiz2.js"></script>
+<script>
+    let questaoElemento = document.getElementById("questao2"); /* busca um id questao */
+    let alternativasElemento = document.getElementById("alternativas2"); 
+    let botaoProximo = document.getElementById("proximaP2");
+
+    let questaoAtualIndice = 0;
+    let pontos = 0;
+
+    comecarQuiz();
+
+    function comecarQuiz() {
+
+    questaoAtualIndice = 0;
+    pontos = 0;
+    mostrarQuestao();
+
+    }
+
+    function mostrarQuestao() {
+        let questaoAtual = quiz2[questaoAtualIndice] ;
+        let questaoX = questaoAtualIndice + 1;
+
+        questaoElemento.innerHTML = questaoX + "." +  questaoAtual.pergunta;
+
+        alternativasElemento.innerHTML = "";
+
+        let respostas = questaoAtual.respostas;
+
+        for( let i = 0; i < respostas.length ; i++) {
+            let textoRespostas = respostas[i].texto;
+            let status = respostas[i].correta;
+
+            
+
+            alternativasElemento.innerHTML += `<button id="btn${i}" class="btn" onclick="verificarResposta(${status}, 'btn${i}')">${textoRespostas}</button>`;
+            
+        }
+    }
+
+    function verificarResposta(status, idBotao) {
+
+    let botao = document.getElementById(idBotao);
+
+    if (status == true) {
+        botao.classList.add("certo");
+        pontos++;
+    } else {
+        botao.classList.add("errado");
+    }
+    }
+
+function proximaP() {
+    questaoAtualIndice = questaoAtualIndice + 1;
+
+    if (questaoAtualIndice < quiz2.length) {
+        mostrarQuestao();
+    } else {
+        questaoElemento.innerHTML = "Quiz finalizado! Você fez " + pontos + " pontos";
+        alternativasElemento.innerHTML = "";
+
+        botaoProximo.innerHTML = "VOLTAR À TELA INICIAL";
+        botaoProximo.onclick = voltarInicio;
+    }
+}
+
+function voltarInicio() {
+    window.location.href = "../paginaInicial.html";
+}
+
+</script>

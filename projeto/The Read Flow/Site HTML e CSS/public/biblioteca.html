@@ -3,13 +3,197 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="biblioteca.css">
     <title>Document</title>
 </head>
 <body>
-    <button>ADICONAR LIVRO LIDO</button>
-    <h1>Meus livros lidos</h1>
+<div class="container">
+    <a href="leituras.html" class="voltar"><button>VOLTAR</button></a>
+    <h1>REGISTRE UMA LEITURA</h1>
+    <p class="subtitulo">Pesquise livros por nome, autor, saga ou gênero</p>
+
+    <div class="filtros">
+        <div class="campo">
+            <label>Nome</label>
+            <input type="text" id="ipt_nome">
+            <button onclick="pesqNome()">Pesquisar</button>
+        </div>
+
+        <div class="campo">
+            <label>Autor</label>
+            <input type="text" id="ipt_autor">
+            <button onclick="pesqAutor()">Pesquisar</button>
+        </div>
+
+        <div class="campo">
+            <label>Saga</label>
+    <select id="ipt_saga"> 
+        <option value="">Selecione uma saga</option> 
+        <option value="A Rainha Vermelha">A Rainha Vermelha</option> 
+        <option value="Boys of Tommen">Boys of Tommen</option> 
+        <option value="O Povo do Ar">O Povo do Ar</option> 
+        <option value="Os Tons de Magia">Os Tons de Magia</option> 
+        <option value="As Peças Infernais">As Peças Infernais</option> 
+        <option value="Os Artifícios das Trevas">Os Artifícios das Trevas</option> 
+        <option value="Jogos de Herança">Jogos de Herança</option>
+        <option value="Estilhaça-me">Estilhaça-me</option> 
+        <option value="Quarta Asa">Quarta Asa</option> ]
+        <option value="Cidade da Lua Crescente">Cidade da Lua Crescente</option> 
+        <option value="ACOTAR">ACOTAR</option> 
+        <option value="Trono de Vidro">Trono de Vidro</option> 
+        <option value="Tudo Pelo Jogo">Tudo Pelo Jogo</option> 
+        <option value="Nevernight">Nevernight</option> 
+        <option value="Caraval">Caraval</option> 
+        <option value="De Sangue e Cinzas">De Sangue e Cinzas</option> 
+        <option value="Herdeiro das Trevas">Herdeiro das Trevas</option> 
+        <option value="Academia dos Casos Arquivados">Academia dos Casos Arquivados</option> 
+        <option value="A Empregada">A Empregada</option> 
+        <option value="Off Campus">Off Campus</option> 
+        <option value="Devils Night">Devils Night</option> 
+        <option value="O Povo do Mar">O Povo do Ar</option> 
+</select>
+            <button onclick="pesqSaga()">Pesquisar</button>
+        </div>
+
+        <div class="campo">
+            <label>Gênero</label>
+            <select id="ipt_genero">
+                <option value="">Selecione</option>
+                <option value="romance">Romance</option>
+                <option value="fantasia">Fantasia</option>
+                <option value="drama">Drama</option>
+                <option value="terror">Terror</option>
+                <option value="suspense">Suspense</option>
+                <option value="acao">Ação</option>
+            </select>
+            <button onclick="pesqGene()">Pesquisar</button>
+        </div>
+    </div>
+
+    <button class="btn-todos" onclick="mostrarTudo()">TODOS OS LIVROS</button>
+
+    <div id="div_mensagem"></div>
+</div>
 </body>
 </html>
+<script src="dados.js"></script>
 <script>
+    function mostrarTudo() {
+           for (let i = 0; i < 161; i++) {
+    div_mensagem.innerHTML += `
+    <div class="card">
+        <img src="${livros[i].url}" alt="">
+        <div>
+            <p class="negrito">${livros[i].nome}<p>
+            <span>AUTOR: ${livros[i].autor}</span> <br>
+            <span>ANO: ${livros[i].ano}</span> <br>
+            <span>GÊNERO: ${livros[i].genero}</span>
+        </div>
+    </div>`;
+}
+    }
     
+    function pesqNome() {
+    let nome = ipt_nome.value;
+    let validacao = false;
+    div_mensagem.innerHTML = "";   
+
+    for (let i = 0; i < livros.length; i++) {
+        
+        if (livros[i].nome.toLowerCase().includes(nome)) {
+        validacao = true;
+    div_mensagem.innerHTML += `
+    <div class="card">
+        <img src="${livros[i].url}" alt="">
+        <div>
+            <p class="negrito">${livros[i].nome}<p>
+            <span>${livros[i].autor}</span> <br>
+            <span>${livros[i].ano}</span> <br>
+            <span>${livros[i].genero}</span>
+        </div>
+    </div>`
+
+    
+}      validacao == false
+}   if (validacao == false) {
+        alert("Livro não encontrado!")}
+
+     
+    }
+
+    function pesqAutor() {
+    let autor = ipt_autor.value;
+    let validacao = false;
+    div_mensagem.innerHTML = ""       
+
+    for (let i = 0; i < livros.length; i++) {
+        if (livros[i].autor.toLowerCase().includes(autor)) {
+        validacao = true;
+    div_mensagem.innerHTML += `
+    <div class="card">
+        <img src="${livros[i].url}" alt="">
+        <div>
+            <p class="negrito">${livros[i].nome}<p>
+            <span>${livros[i].autor}</span> <br>
+            <span>${livros[i].ano}</span> <br>
+            <span>${livros[i].genero}</span>
+        </div>
+    </div>`
+} validacao == false
+
+} if (validacao == false) {
+        alert("Autor não encontrado!")}
+    }
+
+    function pesqSaga() {
+    let saga = ipt_saga.value;
+    div_mensagem.innerHTML = "";
+
+    for (let i = 0; i < livros.length; i++){
+    let sagas = livros[i].saga
+
+    if (saga == sagas) {
+         div_mensagem.innerHTML += `
+    <div class="card">
+        <img src="${livros[i].url}" alt="">
+        <div>
+            <p class="negrito">${livros[i].nome}<p>
+            <span>${livros[i].autor}</span> <br>
+            <span>${livros[i].ano}</span> <br>
+            <span>${livros[i].genero}</span>
+        </div>
+    </div>`
+    }
+    }
+
+    }
+
+    function pesqGene() {
+    let genero1 = ipt_genero.value;
+    div_mensagem.innerHTML = "";
+    let encontrou = false;
+
+    for (let i = 0; i < livros.length; i++){
+    
+
+    if (livros[i].genero.toLowerCase().includes(genero1)) {
+
+        encontrou = true;
+
+         div_mensagem.innerHTML += `
+    <div class="card">
+        <img src="${livros[i].url}" alt="">
+        <div>
+            <p class="negrito">${livros[i].nome}<p>
+            <span>${livros[i].autor}</span> <br>
+            <span>${livros[i].ano}</span> <br>
+            <span>${livros[i].genero}</span>
+        </div>
+    </div>`
+    }
+    }
+
+    }
+
 </script>

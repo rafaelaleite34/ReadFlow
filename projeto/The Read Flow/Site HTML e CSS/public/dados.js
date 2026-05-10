@@ -7,7 +7,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/51ePjkTFw1L._SY445_SX342_ML2_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Johnny Kavanagh, astro do rugby escolar, conhece Shannon, uma garota reservada marcada por problemas familiares e traumas.",
-		"ano" : 2018
+		"ano" : 2018,
+		"genero" : "romance, drama",
+		"saga" : "Boys of Tommen"
 	},
 	{
 		"id" : 2,
@@ -17,7 +19,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91JurjqB18L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Paedyn Gray vive escondendo seus poderes em um reino onde ser comum significa morte.",
-		"ano" : 2023
+		"ano" : 2023,
+		"genero" : "fantasia, romance",
+		"saga" : null
 	},
 	{
 		"id" : 3,
@@ -27,7 +31,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81m94OedHqL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Celaena Sardothien, uma assassina lendária, recebe a chance de conquistar sua liberdade em uma competição mortal.",
-		"ano" : 2012
+		"ano" : 2012,
+		"genero" : "fantasia, acao",
+		"saga" : "Trono de Vidro"
 	},
 	{
 		"id" : 4,
@@ -37,7 +43,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81OmtVkUTcL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Feyre mata um lobo e acaba sendo levada para uma terra mágica cheia de perigos e segredos.",
-		"ano" : 2015
+		"ano" : 2015,
+		"genero" : "fantasia, romance",
+		"saga" : "ACOTAR"
 	},
 	{
 		"id" : 5,
@@ -47,7 +55,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81BVlM0IU3L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Feyre precisa lidar com traumas, política e um novo relacionamento transformador.",
-		"ano" : 2016
+		"ano" : 2016,
+		"genero" : "fantasia, romance",
+		"saga" : "ACOTAR"
 	},
 	{
 		"id" : 6,
@@ -57,7 +67,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81d86N6Q6rL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "A guerra se aproxima e Feyre precisa lutar por aqueles que ama.",
-		"ano" : 2017
+		"ano" : 2017,
+		"genero" : "fantasia, romance",
+		"saga" : "ACOTAR"
 	},
 	{
 		"id" : 7,
@@ -67,7 +79,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81BFOwnB6AL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Os personagens lidam com as consequências da guerra durante o solstício de inverno.",
-		"ano" : 2018
+		"ano" : 2018,
+		"genero" : "fantasia, romance",
+		"saga" : "ACOTAR"
 	},
 	{
 		"id" : 8,
@@ -77,7 +91,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81y-jxmu9JL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 18,
 		"sinopse" : "Nesta Archeron enfrenta traumas e descobre sua força em uma jornada intensa.",
-		"ano" : 2021
+		"ano" : 2021,
+		"genero" : "fantasia, romance",
+		"saga" : "ACOTAR"
 	},
 	{
 		"id" : 9,
@@ -87,7 +103,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81FH6q0EqYS._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Jude, uma humana criada entre fadas, deseja conquistar poder em um mundo cruel.",
-		"ano" : 2018
+		"ano" : 2018,
+		"genero" : "fantasia, drama",
+		"saga" : "O Povo do Ar"
 	},
 	{
 		"id" : 10,
@@ -97,7 +115,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91N9kjbqxWS._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Jude navega intrigas políticas e jogos perigosos pelo trono.",
-		"ano" : 2019
+		"ano" : 2019,
+		"genero" : "fantasia, drama",
+		"saga" : "O Povo do Ar"
 	},
 	{
 		"id" : 11,
@@ -107,7 +127,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/51r3SbJ+qrL._SY445_SX342_ML2_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Jude enfrenta a batalha final por poder, amor e sobrevivência.",
-		"ano" : 2019
+		"ano" : 2019,
+		"genero" : "fantasia, drama",
+		"saga" : "O Povo do Ar"
 	},
 	{
 		"id" : 12,
@@ -117,7 +139,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/613YunBw8yL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Rin entra para uma academia militar e descobre poderes ligados a deuses antigos.",
-		"ano" : 2018
+		"ano" : 2018,
+		"genero" : "fantasia, acao",
+		"saga" : "A Guerra da Papoula"
 	},
 	{
 		"id" : 13,
@@ -127,7 +151,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/61bHMCxghFL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Rin lidera forças em meio a guerra, trauma e destruição.",
-		"ano" : 2019
+		"ano" : 2019,
+		"genero" : "fantasia, acao",
+		"saga" : "A Guerra da Papoula"
 	},
 	{
 		"id" : 14,
@@ -137,7 +163,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/61RD8yx2UVL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "A conclusão épica acompanha Rin em sua luta final pelo futuro do império.",
-		"ano" : 2020
+		"ano" : 2020,
+		"genero" : "fantasia, acao",
+		"saga" : "A Guerra da Papoula"
 	},
 	{
 		"id" : 15,
@@ -147,7 +175,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81iqH8dpjuL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Nora Seed recebe a chance de explorar vidas alternativas e refletir sobre escolhas.",
-		"ano" : 2020
+		"ano" : 2020,
+		"genero" : "drama, fantasia",
+		"saga" : null
 	},
 	{
 		"id" : 16,
@@ -157,7 +187,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91KL76cFphL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "A ascensão e queda de uma banda fictícia dos anos 70 é contada em formato de entrevistas.",
-		"ano" : 2019
+		"ano" : 2019,
+		"genero" : "drama, romance",
+		"saga" : null
 	},
 	{
 		"id" : 17,
@@ -167,7 +199,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81DtPrUXl+L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Victor Frankenstein desafia as leis da natureza ao criar vida artificialmente, enfrentando terríveis consequências.",
-		"ano" : 1818
+		"ano" : 1818,
+		"genero" : "terror, drama",
+		"saga" : null
 	},
 	{
 		"id" : 18,
@@ -177,7 +211,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/51qh7cI06QL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Dorian Gray deseja eterna juventude enquanto seu retrato envelhece em seu lugar.",
-		"ano" : 1890
+		"ano" : 1890,
+		"genero" : "drama, suspense",
+		"saga" : null
 	},
 	{
 		"id" : 19,
@@ -187,7 +223,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91R8S52UP6L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Uma psicoterapeuta tenta descobrir por que sua paciente matou o marido e nunca mais falou.",
-		"ano" : 2019
+		"ano" : 2019,
+		"genero" : "suspense, drama",
+		"saga" : null
 	},
 	{
 		"id" : 20,
@@ -197,7 +235,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91ocgbfq55L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Um escritor sofre acidente e fica preso aos cuidados de sua fã obsessiva.",
-		"ano" : 1987
+		"ano" : 1987,
+		"genero" : "terror, suspense",
+		"saga" : null
 	},
 	{
 		"id" : 21,
@@ -207,7 +247,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81caDOQBC-L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Danny Torrance, agora adulto, encara novos perigos ligados ao brilho.",
-		"ano" : 2013
+		"ano" : 2013,
+		"genero" : "terror, suspense",
+		"saga" : null
 	},
 	{
 		"id" : 22,
@@ -217,7 +259,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81Q+pJi4NjL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Uma família se muda para um hotel isolado onde forças sobrenaturais despertam horrores.",
-		"ano" : 1977
+		"ano" : 1977,
+		"genero" : "terror, suspense",
+		"saga" : null
 	},
 	{
 		"id" : 23,
@@ -227,7 +271,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81BdpMhm3iL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Millie aceita trabalhar em uma casa luxuosa, mas percebe que nem tudo é o que parece.",
-		"ano" : 2022
+		"ano" : 2022,
+		"genero" : "suspense, drama",
+		"saga" : "A Empregada"
 	},
 	{
 		"id" : 24,
@@ -237,7 +283,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81qwX4O+XIL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Millie retorna em uma nova trama cheia de segredos e manipulação.",
-		"ano" : 2023
+		"ano" : 2023,
+		"genero" : "suspense, drama",
+		"saga" : "A Empregada"
 	},
 	{
 		"id" : 25,
@@ -247,7 +295,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91mdEwOzdGS._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 18,
 		"sinopse" : "A amizade entre quatro homens acompanha décadas de amor, trauma e sofrimento.",
-		"ano" : 2015
+		"ano" : 2015,
+		"genero" : "drama, romance",
+		"saga" : null
 	},
 	{
 		"id" : 26,
@@ -257,7 +307,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/71SYepTUsDL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "O filho da presidente dos EUA e um príncipe britânico vivem um romance improvável.",
-		"ano" : 2019
+		"ano" : 2019,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 27,
@@ -267,7 +319,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81LTEfXYgcL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Uma doutoranda convence um professor a fingir ser seu namorado.",
-		"ano" : 2021
+		"ano" : 2021,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 28,
@@ -277,7 +331,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81bkmJnflPL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Bee reencontra um rival acadêmico em um projeto da NASA.",
-		"ano" : 2022
+		"ano" : 2022,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 29,
@@ -287,7 +343,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81iUrbors9L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Elsie vive identidades duplas até se envolver com alguém inesperado.",
-		"ano" : 2023
+		"ano" : 2023,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 30,
@@ -297,7 +355,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/71pSq7HXJ0L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Violet entra em uma academia brutal de cavaleiros de dragões.",
-		"ano" : 2023
+		"ano" : 2023,
+		"genero" : "fantasia, romance",
+		"saga" : "Quarta Asa"
 	},
 	{
 		"id" : 31,
@@ -307,7 +367,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91i+8KU2U5L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Violet enfrenta desafios ainda mais perigosos e segredos sobre seu reino.",
-		"ano" : 2023
+		"ano" : 2023,
+		"genero" : "fantasia, romance",
+		"saga" : "Quarta Asa"
 	},
 	{
 		"id" : 32,
@@ -317,7 +379,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91915km0UdL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "A jornada continua em meio a novas ameaças, dragões e magia.",
-		"ano" : 2025
+		"ano" : 2025,
+		"genero" : "fantasia, romance",
+		"saga" : "Quarta Asa"
 	},
 	{
 		"id" : 33,
@@ -327,7 +391,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/71p66yY4htL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Scarlett entra em um espetáculo mágico onde nada é o que parece.",
-		"ano" : 2017
+		"ano" : 2017,
+		"genero" : "fantasia, romance",
+		"saga" : "Caraval"
 	},
 	{
 		"id" : 34,
@@ -337,7 +403,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81bcnpI92BL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Donatella embarca em uma nova rodada de Caraval cheia de apostas perigosas.",
-		"ano" : 2018
+		"ano" : 2018,
+		"genero" : "fantasia, romance",
+		"saga" : "Caraval"
 	},
 	{
 		"id" : 35,
@@ -347,7 +415,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91xyJ8LjggL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "A conclusão da trilogia reúne magia, destino e romance.",
-		"ano" : 2019
+		"ano" : 2019,
+		"genero" : "fantasia, romance",
+		"saga" : "Caraval"
 	},
 	{
 		"id" : 36,
@@ -357,7 +427,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91tgztS06QL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Evangeline faz um acordo perigoso com o Príncipe de Copas.",
-		"ano" : 2021
+		"ano" : 2021,
+		"genero" : "fantasia, romance",
+		"saga" : "Caraval"
 	},
 	{
 		"id" : 37,
@@ -367,7 +439,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91TuTFpkT1L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Evangeline tenta mudar seu destino enquanto lida com magia e maldições.",
-		"ano" : 2022
+		"ano" : 2022,
+		"genero" : "fantasia, romance",
+		"saga" : "Caraval"
 	},
 	{
 		"id" : 38,
@@ -377,7 +451,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91aSfaVMErL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "O destino de Evangeline chega ao clímax em uma conclusão mágica.",
-		"ano" : 2023
+		"ano" : 2023,
+		"genero" : "fantasia, romance",
+		"saga" : "Caraval"
 	},
 	{
 		"id" : 39,
@@ -387,7 +463,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81sJuc5cCVL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Tessa descobre habilidades incomuns e entra no mundo dos Caçadores de Sombras.",
-		"ano" : 2010
+		"ano" : 2010,
+		"genero" : "fantasia, romance",
+		"saga" : "As Peças Infernais"
 	},
 	{
 		"id" : 40,
@@ -397,7 +475,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81NDOVLGASL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Tessa enfrenta ameaças sobrenaturais e conflitos amorosos.",
-		"ano" : 2011
+		"ano" : 2011,
+		"genero" : "fantasia, romance",
+		"saga" : "As Peças Infernais"
 	},
 	{
 		"id" : 41,
@@ -407,7 +487,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81vKEL9DrfL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "No desfecho da trilogia, Tessa encara batalhas e escolhas dolorosas.",
-		"ano" : 2013
+		"ano" : 2013,
+		"genero" : "fantasia, romance",
+		"saga" : "As Peças Infernais"
 	},
 	{
 		"id" : 42,
@@ -417,7 +499,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91IlTc+684L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Bryce tenta reconstruir a vida após uma tragédia e investiga crimes sobrenaturais.",
-		"ano" : 2020
+		"ano" : 2020,
+		"genero" : "fantasia, romance",
+		"saga" : "Cidade da Lua Crescente"
 	},
 	{
 		"id" : 43,
@@ -427,7 +511,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91aIfr4PpBL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Bryce e Hunt investigam crimes e conspirações em Crescent City.",
-		"ano" : 2020
+		"ano" : 2020,
+		"genero" : "fantasia, romance",
+		"saga" : "Cidade da Lua Crescente"
 	},
 	{
 		"id" : 44,
@@ -437,7 +523,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91aIfr4PpBL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Bryce encara novas dimensões, alianças e descobertas.",
-		"ano" : 2022
+		"ano" : 2022,
+		"genero" : "fantasia, romance",
+		"saga" : "Cidade da Lua Crescente"
 	},
 	{
 		"id" : 45,
@@ -447,7 +535,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91l1zpNiyJL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Bryce enfrenta guerra iminente e consequências de escolhas passadas.",
-		"ano" : 2024
+		"ano" : 2024,
+		"genero" : "fantasia, romance",
+		"saga" : "Cidade da Lua Crescente"
 	},
 	{
 		"id" : 46,
@@ -457,7 +547,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91r5G8RxqfL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Lily revive memórias dolorosas enquanto enfrenta um relacionamento abusivo.",
-		"ano" : 2016
+		"ano" : 2016,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 47,
@@ -467,7 +559,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81Izv2GRWoL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Lily e Atlas tentam finalmente viver sua relação.",
-		"ano" : 2022
+		"ano" : 2022,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 48,
@@ -477,7 +571,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/917G-FdK2kL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Fallon e Ben se encontram todo ano na mesma data.",
-		"ano" : 2015
+		"ano" : 2015,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 49,
@@ -487,7 +583,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91SDZ2eUj+L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Lowen descobre manuscritos perturbadores ao aceitar um trabalho misterioso.",
-		"ano" : 2018
+		"ano" : 2018,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 50,
@@ -497,7 +595,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81u8c5lziEL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Beyah passa o verão em um ambiente novo e conhece alguém transformador.",
-		"ano" : 2020
+		"ano" : 2020,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 51,
@@ -507,7 +607,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/813WvRoZ0HL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Uma história sobre reencontros e segundas chances no amor.",
-		"ano" : 2022
+		"ano" : 2022,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 52,
@@ -517,7 +619,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91Yi9uiB6yL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 18,
 		"sinopse" : "Sloan vive presa em um relacionamento perigoso e busca escapar.",
-		"ano" : 2016
+		"ano" : 2016,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 53,
@@ -527,7 +631,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91JEv0CG26L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Sky conhece Dean e descobre verdades chocantes sobre o passado.",
-		"ano" : 2012
+		"ano" : 2012,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 54,
@@ -537,7 +643,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81FEytag46L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Tate e Miles vivem uma relação intensa marcada por regras emocionais.",
-		"ano" : 2014
+		"ano" : 2014,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 55,
@@ -547,7 +655,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81BnNuSP4uL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Uma jovem tenta reconstruir a vida após perdas e traumas.",
-		"ano" : 2012
+		"ano" : 2012,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 56,
@@ -557,7 +667,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81Vhnel+xxL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Graham e Quinn enfrentam desafios reais dentro do casamento.",
-		"ano" : 2018
+		"ano" : 2018,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 57,
@@ -567,7 +679,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/814pUv-EGbL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Uma adolescente lida com luto, culpa e segredos familiares.",
-		"ano" : 2018
+		"ano" : 2018,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 58,
@@ -577,7 +691,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/819ss15qrkL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Auburn e Owen se conectam através de confissões anônimas.",
-		"ano" : 2015
+		"ano" : 2015,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 59,
@@ -587,7 +703,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/812RDxFDd8L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Uma vampira e um lobisomem formam uma aliança improvável que muda seus destinos.",
-		"ano" : 2024
+		"ano" : 2024,
+		"genero" : "fantasia, romance",
+		"saga" : null
 	},
 	{
 		"id" : 60,
@@ -597,7 +715,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81y3XVe4JoL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Uma releitura emocionante da mitologia grega focada na relação entre Pátroclo e Aquiles durante a Guerra de Troia.",
-		"ano" : 2011
+		"ano" : 2011,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 61,
@@ -607,7 +727,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81DkKVIavBL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Uma assistente acaba trabalhando para um vilão misterioso e perigoso, criando uma dinâmica divertida e romântica.",
-		"ano" : 2023
+		"ano" : 2023,
+		"genero" : "fantasia, romance",
+		"saga" : null
 	},
 	{
 		"id" : 62,
@@ -617,7 +739,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81Q4iEvgkSL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "A continuação acompanha novas aventuras, romance e confusões envolvendo os protagonistas.",
-		"ano" : 2024
+		"ano" : 2024,
+		"genero" : "fantasia, romance",
+		"saga" : null
 	},
 	{
 		"id" : 63,
@@ -627,7 +751,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81aMTz266YL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Uma fantasia sombria com magia, heranças e forças obscuras ameaçando o reino.",
-		"ano" : 2021
+		"ano" : 2021,
+		"genero" : "fantasia, acao",
+		"saga" : "Herdeiro das Trevas"
 	},
 	{
 		"id" : 64,
@@ -637,7 +763,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/811jwwcitKL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "A jornada continua enquanto antigas ameaças retornam ainda mais fortes.",
-		"ano" : 2022
+		"ano" : 2022,
+		"genero" : "fantasia, acao",
+		"saga" : "Herdeiro das Trevas"
 	},
 	{
 		"id" : 65,
@@ -647,7 +775,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81dnxCIkncL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Avery herda uma fortuna bilionária e precisa resolver enigmas deixados por um excêntrico milionário.",
-		"ano" : 2020
+		"ano" : 2020,
+		"genero" : "suspense, drama",
+		"saga" : "Jogos de Herança"
 	},
 	{
 		"id" : 66,
@@ -657,7 +787,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91nL6deptvL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Mistérios envolvendo a família Hawthorne continuam ainda mais perigosos.",
-		"ano" : 2021
+		"ano" : 2021,
+		"genero" : "suspense, drama",
+		"saga" : "Jogos de Herança"
 	},
 	{
 		"id" : 67,
@@ -667,7 +799,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81y6opB9W+L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "A disputa final por respostas, herança e segredos chega ao ápice.",
-		"ano" : 2022
+		"ano" : 2022,
+		"genero" : "suspense, drama",
+		"saga" : "Jogos de Herança"
 	},
 	{
 		"id" : 68,
@@ -677,7 +811,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81LRk6+p1HL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Uma jornalista investiga o assassinato de uma jovem em uma cidade cheia de segredos.",
-		"ano" : 2018
+		"ano" : 2018,
+		"genero" : "suspense, drama",
+		"saga" : null
 	},
 	{
 		"id" : 69,
@@ -687,7 +823,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81y7SXLd2DL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Lucy retorna à cidade natal e confronta lembranças, perdas e antigos mistérios.",
-		"ano" : 2011
+		"ano" : 2011,
+		"genero" : "suspense, drama",
+		"saga" : null
 	},
 	{
 		"id" : 70,
@@ -697,7 +835,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/61QhNRjycfL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Dois adolescentes recebem a notícia de que morrerão em 24 horas e decidem viver intensamente.",
-		"ano" : 2017
+		"ano" : 2017,
+		"genero" : "drama, romance",
+		"saga" : null
 	},
 	{
 		"id" : 71,
@@ -707,7 +847,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81NGvQ0QxdL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 18,
 		"sinopse" : "Estudantes são forçados a participar de um jogo mortal de sobrevivência.",
-		"ano" : 1999
+		"ano" : 1999,
+		"genero" : "acao, drama",
+		"saga" : null
 	},
 	{
 		"id" : 72,
@@ -717,7 +859,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81ULqUzT74L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 18,
 		"sinopse" : "Personagens de Devil’s Night retornam em uma trama intensa e adulta.",
-		"ano" : 2018
+		"ano" : 2018,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 73,
@@ -727,7 +871,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91KsZkUtV8L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 18,
 		"sinopse" : "Misha e Ryen mantêm amizade anônima até a realidade mudar tudo.",
-		"ano" : 2016
+		"ano" : 2016,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 74,
@@ -737,7 +883,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/818iPdVS9XL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 18,
 		"sinopse" : "Jordan se envolve em um romance proibido e controverso.",
-		"ano" : 2018
+		"ano" : 2018,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 75,
@@ -747,7 +895,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91EEn1ZVw+L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 18,
 		"sinopse" : "Erika é puxada para jogos perigosos com Michael e seus amigos.",
-		"ano" : 2015
+		"ano" : 2015,
+		"genero" : "romance, suspense",
+		"saga" : "Devils Night"
 	},
 	{
 		"id" : 76,
@@ -757,7 +907,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91Iym6-6xML._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 18,
 		"sinopse" : "Kai enfrenta traumas, obsessões e busca redenção.",
-		"ano" : 2017
+		"ano" : 2017,
+		"genero" : "romance, suspense",
+		"saga" : "Devils Night"
 	},
 	{
 		"id" : 77,
@@ -767,7 +919,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81WYivChzJS._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 18,
 		"sinopse" : "Damon protagoniza uma história sombria marcada por obsessão e redenção.",
-		"ano" : 2019
+		"ano" : 2019,
+		"genero" : "romance, suspense",
+		"saga" : "Devils Night"
 	},
 	{
 		"id" : 78,
@@ -777,7 +931,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/71QbHTPna7L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 18,
 		"sinopse" : "O encerramento da série Devil’s Night traz confrontos e resoluções finais.",
-		"ano" : 2020
+		"ano" : 2020,
+		"genero" : "romance, suspense",
+		"saga" : "Devils Night"
 	},
 	{
 		"id" : 79,
@@ -787,7 +943,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81XTUIDHP+L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 18,
 		"sinopse" : "Tiernan vai viver isolada e se envolve em relações complexas.",
-		"ano" : 2020
+		"ano" : 2020,
+		"genero" : "romance, suspense",
+		"saga" : "Devils Night"
 	},
 	{
 		"id" : 80,
@@ -797,7 +955,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81TDSCFj-FL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Hannah e Garrett fazem um acordo improvável que evolui para romance.",
-		"ano" : 2015
+		"ano" : 2015,
+		"genero" : "romance, drama",
+		"saga" : "Off Campus"
 	},
 	{
 		"id" : 81,
@@ -807,7 +967,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/816ewVxl5+L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Logan tenta conquistar Grace enquanto enfrenta problemas pessoais.",
-		"ano" : 2015
+		"ano" : 2015,
+		"genero" : "romance, drama",
+		"saga" : "Off Campus"
 	},
 	{
 		"id" : 82,
@@ -817,7 +979,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81LpW1376hL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Dean finalmente encontra alguém capaz de desafiar sua reputação.",
-		"ano" : 2016
+		"ano" : 2016,
+		"genero" : "romance, drama",
+		"saga" : "Off Campus"
 	},
 	{
 		"id" : 83,
@@ -827,7 +991,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81ZPHuAs4pL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Tucker e Sabrina vivem uma relação inesperada cheia de amadurecimento.",
-		"ano" : 2016
+		"ano" : 2016,
+		"genero" : "romance, drama",
+		"saga" : "Off Campus"
 	},
 	{
 		"id" : 84,
@@ -837,7 +1003,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81mLOdgjhwL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Um romance esportivo leve acompanha personagens em meio a competição e sentimentos.",
-		"ano" : 2024
+		"ano" : 2024,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 85,
@@ -847,7 +1015,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81zS56B7lqL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Um romance universitário mistura esportes, rivalidade e química entre protagonistas.",
-		"ano" : 2023
+		"ano" : 2023,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 86,
@@ -857,7 +1027,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/71F-L7ay7ML._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Mais uma história romântica esportiva cheia de humor e aproximação gradual.",
-		"ano" : 2023
+		"ano" : 2023,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 87,
@@ -867,7 +1039,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/71DPuiRWNqL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Bel entra para um clube de robótica e cria uma conexão inesperada com Teo.",
-		"ano" : 2022
+		"ano" : 2022,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 88,
@@ -877,7 +1051,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/616U6mSP3lL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Dois inimigos precisam dividir férias e acabam se aproximando romanticamente.",
-		"ano" : 2020
+		"ano" : 2020,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 89,
@@ -887,7 +1063,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81yzw69-L8L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Uma história leve de romance com ambientação esportiva e personagens carismáticos.",
-		"ano" : 2024
+		"ano" : 2024,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 90,
@@ -897,7 +1075,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91QduANJ06L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Um romance nacional ambientado no gelo mistura sonhos, superação e sentimentos.",
-		"ano" : 2023
+		"ano" : 2023,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 91,
@@ -907,7 +1087,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91TU6-b+QKL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Mia Corvere entra para uma escola de assassinos buscando vingança contra aqueles que destruíram sua família.",
-		"ano" : 2016
+		"ano" : 2016,
+		"genero" : "fantasia, acao",
+		"saga" : "Nevernight"
 	},
 	{
 		"id" : 92,
@@ -917,7 +1099,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91C2Ktyxt7L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Mia continua sua busca por vingança em arenas e jogos mortais.",
-		"ano" : 2017
+		"ano" : 2017,
+		"genero" : "fantasia, acao",
+		"saga" : "Nevernight"
 	},
 	{
 		"id" : 93,
@@ -927,7 +1111,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91y3vsorq-L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "A trilogia chega ao fim com revelações, vingança e confrontos finais.",
-		"ano" : 2019
+		"ano" : 2019,
+		"genero" : "fantasia, acao",
+		"saga" : "Nevernight"
 	},
 	{
 		"id" : 94,
@@ -937,7 +1123,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81rsA7hMcsL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Poppy vive destinada a um papel sagrado, mas começa a questionar tudo ao conhecer Hawke.",
-		"ano" : 2020
+		"ano" : 2020,
+		"genero" : "fantasia, romance",
+		"saga" : "De Sangue e Cinzas"
 	},
 	{
 		"id" : 95,
@@ -947,7 +1135,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91YxRg3umCL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Poppy e Casteel enfrentam novas ameaças e descobertas sobre linhagem e poder.",
-		"ano" : 2020
+		"ano" : 2020,
+		"genero" : "fantasia, romance",
+		"saga" : "De Sangue e Cinzas"
 	},
 	{
 		"id" : 96,
@@ -957,7 +1147,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91izqT4CK5L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "A guerra se aproxima enquanto Poppy entende melhor sua origem e destino.",
-		"ano" : 2021
+		"ano" : 2021,
+		"genero" : "fantasia, romance",
+		"saga" : "De Sangue e Cinzas"
 	},
 	{
 		"id" : 97,
@@ -967,7 +1159,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91uivowF+LL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Conflitos políticos e divinos elevam ainda mais as apostas da série.",
-		"ano" : 2022
+		"ano" : 2022,
+		"genero" : "fantasia, romance",
+		"saga" : "De Sangue e Cinzas"
 	},
 	{
 		"id" : 98,
@@ -977,7 +1171,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81zU4KTGfPL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Juliette tenta se adaptar ao poder e às novas responsabilidades.",
-		"ano" : 2017
+		"ano" : 2017,
+		"genero" : "fantasia, romance",
+		"saga" : "Estilhaça-me"
 	},
 	{
 		"id" : 99,
@@ -987,7 +1183,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/71FxwdX4v1L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Juliette precisa liderar enquanto enfrenta ameaças emocionais e políticas.",
-		"ano" : 2018
+		"ano" : 2018,
+		"genero" : "fantasia, romance",
+		"saga" : "Estilhaça-me"
 	},
 	{
 		"id" : 100,
@@ -997,7 +1195,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81QXzYLzpLL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Juliette encara novas batalhas e alianças decisivas.",
-		"ano" : 2014
+		"ano" : 2014,
+		"genero" : "fantasia, romance",
+		"saga" : "Estilhaça-me"
 	},
 	{
 		"id" : 101,
@@ -1007,7 +1207,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81yPJu-ltGL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "A luta contra o Restabelecimento atinge níveis críticos.",
-		"ano" : 2014
+		"ano" : 2014,
+		"genero" : "fantasia, romance",
+		"saga" : "Estilhaça-me"
 	},
 	{
 		"id" : 102,
@@ -1017,7 +1219,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/71P-Mok4cqL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Juliette possui um toque letal e vive isolada até ser usada como arma.",
-		"ano" : 2011
+		"ano" : 2011,
+		"genero" : "fantasia, romance",
+		"saga" : "Estilhaça-me"
 	},
 	{
 		"id" : 103,
@@ -1027,7 +1231,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81bZ+S+2rVL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "O encerramento da série traz decisões finais e grandes revelações.",
-		"ano" : 2020
+		"ano" : 2020,
+		"genero" : "fantasia, romance",
+		"saga" : "Estilhaça-me"
 	},
 	{
 		"id" : 104,
@@ -1037,7 +1243,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91Lo5EvCaDL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Um suspense policial brutal envolvendo vingança, violência e investigação.",
-		"ano" : 2023
+		"ano" : 2023,
+		"genero" : "suspense, drama",
+		"saga" : null
 	},
 	{
 		"id" : 105,
@@ -1047,7 +1255,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81Zp6MFxIDL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 12,
 		"sinopse" : "Poirot investiga um assassinato em um luxuoso trem preso na neve.",
-		"ano" : 1934
+		"ano" : 1934,
+		"genero" : "suspense, drama",
+		"saga" : null
 	},
 	{
 		"id" : 106,
@@ -1057,7 +1267,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81jD27fFFeL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 12,
 		"sinopse" : "Miss Marple investiga cartas anônimas e segredos em uma pequena cidade.",
-		"ano" : 1942
+		"ano" : 1942,
+		"genero" : "suspense, drama",
+		"saga" : null
 	},
 	{
 		"id" : 107,
@@ -1067,7 +1279,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81WjGu5a5ZL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Uma família aparentemente perfeita esconde conflitos e tensões perturbadoras.",
-		"ano" : 2024
+		"ano" : 2024,
+		"genero" : "suspense, drama",
+		"saga" : null
 	},
 	{
 		"id" : 108,
@@ -1077,7 +1291,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/71AeB1+8dZL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 18,
 		"sinopse" : "Quatro amigos universitários se envolvem em um pacto sombrio e canibalismo.",
-		"ano" : 2016
+		"ano" : 2016,
+		"genero" : "suspense, drama",
+		"saga" : null
 	},
 	{
 		"id" : 109,
@@ -1087,7 +1303,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81XqiNjr5OL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 18,
 		"sinopse" : "Participantes de um jogo macabro revelam segredos e histórias traumáticas.",
-		"ano" : 2012
+		"ano" : 2012,
+		"genero" : "suspense, drama",
+		"saga" : null
 	},
 	{
 		"id" : 110,
@@ -1097,7 +1315,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81JaIN9NExL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Contos curtos de terror exploram pecados humanos e horror psicológico.",
-		"ano" : 2015
+		"ano" : 2015,
+		"genero" : "suspense, drama",
+		"saga" : null
 	},
 	{
 		"id" : 111,
@@ -1107,7 +1327,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81Jz5PrvZFL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Um thriller de suspense acompanha crimes brutais e uma investigação cheia de tensão.",
-		"ano" : 2023
+		"ano" : 2023,
+		"genero" : "suspense, drama",
+		"saga" : null
 	},
 	{
 		"id" : 112,
@@ -1117,7 +1339,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/71nmEXuiNnL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Zetian entra em uma guerra futurista e decide desafiar um sistema opressor e patriarcal.",
-		"ano" : 2021
+		"ano" : 2021,
+		"genero" : "fantasia, romance",
+		"saga" : null
 	},
 	{
 		"id" : 113,
@@ -1127,7 +1351,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81ldnvmlicL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Uma fantasia romântica marcada por cartas, guerra e conexão entre protagonistas.",
-		"ano" : 2024
+		"ano" : 2024,
+		"genero" : "fantasia, romance",
+		"saga" : null
 	},
 	{
 		"id" : 114,
@@ -1137,7 +1363,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81UkZV9mfEL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Dois jornalistas rivais trocam cartas em meio a uma guerra entre deuses.",
-		"ano" : 2023
+		"ano" : 2023,
+		"genero" : "fantasia, romance",
+		"saga" : null
 	},
 	{
 		"id" : 115,
@@ -1147,7 +1375,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81ScMo8r0gL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Stevie Bell investiga um antigo caso de desaparecimento em uma escola de elite.",
-		"ano" : 2018
+		"ano" : 2018,
+		"genero" : "suspense, drama",
+		"saga" : "Academia dos Casos Arquivados"
 	},
 	{
 		"id" : 116,
@@ -1157,7 +1387,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/816hMMbZ+uL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "A investigação continua enquanto Stevie se aproxima da verdade.",
-		"ano" : 2019
+		"ano" : 2019,
+		"genero" : "suspense, drama",
+		"saga" : "Academia dos Casos Arquivados"
 	},
 	{
 		"id" : 117,
@@ -1167,7 +1399,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81BWBYOMR2L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Mistérios e assassinatos levam Stevie a novas descobertas perigosas.",
-		"ano" : 2020
+		"ano" : 2020,
+		"genero" : "suspense, drama",
+		"saga" : "Academia dos Casos Arquivados"
 	},
 	{
 		"id" : 118,
@@ -1177,7 +1411,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91RQj7NcV3L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Emma descobre ser descendente de sereias e mergulha em conflitos sobrenaturais.",
-		"ano" : 2012
+		"ano" : 2012,
+		"genero" : "fantasia, romance",
+		"saga" : "O Povo do Mar"
 	},
 	{
 		"id" : 119,
@@ -1187,7 +1423,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81pK476xTsL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Uma fantasia sombria mistura realeza, magia e intrigas mortais.",
-		"ano" : 2024
+		"ano" : 2024,
+		"genero" : "fantasia, romance",
+		"saga" : null
 	},
 	{
 		"id" : 120,
@@ -1197,7 +1435,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91wcWf8XlBL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "A continuação aprofunda disputas políticas, magia e relações complexas.",
-		"ano" : 2024
+		"ano" : 2024,
+		"genero" : "fantasia, romance",
+		"saga" : null
 	},
 	{
 		"id" : 121,
@@ -1207,7 +1447,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91jd4E3tC0L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Bruxas e caçadores entram em conflito em uma fantasia cheia de magia e ação.",
-		"ano" : 2017
+		"ano" : 2017,
+		"genero" : "fantasia, acao",
+		"saga" : null
 	},
 	{
 		"id" : 122,
@@ -1217,7 +1459,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/71PJ9yPc9nL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Um romance esportivo mistura rivalidade, tensão e aproximação gradual.",
-		"ano" : 2024
+		"ano" : 2024,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 123,
@@ -1227,7 +1471,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81dfmzsNDwL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 18,
 		"sinopse" : "Uma comédia romântica dark mistura humor ácido, tensão e assassinatos.",
-		"ano" : 2024
+		"ano" : 2024,
+		"genero" : "romance, suspense",
+		"saga" : null
 	},
 	{
 		"id" : 124,
@@ -1237,7 +1483,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91BnOiDxpcL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Uma fantasia jovem acompanha mistérios envolvendo música, magia e ossos antigos.",
-		"ano" : 2024
+		"ano" : 2024,
+		"genero" : "fantasia, romance",
+		"saga" : null
 	},
 	{
 		"id" : 125,
@@ -1247,7 +1495,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81ywVJPVbXL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Um romance ambientado no gelo acompanha superação e conexões emocionais.",
-		"ano" : 2024
+		"ano" : 2024,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 126,
@@ -1257,7 +1507,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91N5dvMOl4L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Uma história controversa explora relações proibidas e consequências emocionais.",
-		"ano" : 2010
+		"ano" : 2010,
+		"genero" : "drama, romance",
+		"saga" : null
 	},
 	{
 		"id" : 127,
@@ -1267,7 +1519,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81nwkac3N2L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Contos extras e expansões do universo de Rainha Vermelha.",
-		"ano" : 2019
+		"ano" : 2019,
+		"genero" : "fantasia, acao",
+		"saga" : "A Rainha Vermelha"
 	},
 	{
 		"id" : 128,
@@ -1277,7 +1531,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81yS2gZweiL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "A guerra final coloca Mare diante de escolhas difíceis e perdas inevitáveis.",
-		"ano" : 2018
+		"ano" : 2018,
+		"genero" : "fantasia, acao",
+		"saga" : "A Rainha Vermelha"
 	},
 	{
 		"id" : 129,
@@ -1287,7 +1543,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91OjGPgKvPL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Mare é capturada e enfrenta manipulações, prisão e desafios internos.",
-		"ano" : 2017
+		"ano" : 2017,
+		"genero" : "fantasia, acao",
+		"saga" : "A Rainha Vermelha"
 	},
 	{
 		"id" : 130,
@@ -1297,7 +1555,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81ewgI0ylSL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Mare continua lutando contra a elite em meio a rebelião e descobertas.",
-		"ano" : 2016
+		"ano" : 2016,
+		"genero" : "fantasia, acao",
+		"saga" : "A Rainha Vermelha"
 	},
 	{
 		"id" : 131,
@@ -1307,7 +1567,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/718rKQisF7L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Mare descobre seus poderes em um mundo dividido entre sangues vermelhos e prateados.",
-		"ano" : 2015
+		"ano" : 2015,
+		"genero" : "fantasia, acao",
+		"saga" : "A Rainha Vermelha"
 	},
 	{
 		"id" : 132,
@@ -1317,7 +1579,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81Ld8RC0CmL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Aelin enfrenta sua batalha final para salvar Terrasen e seu povo.",
-		"ano" : 2018
+		"ano" : 2018,
+		"genero" : "fantasia, acao",
+		"saga" : "Trono de Vidro"
 	},
 	{
 		"id" : 133,
@@ -1327,7 +1591,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91H+67JhFUL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Chaol embarca em uma jornada de cura e descobertas políticas.",
-		"ano" : 2018
+		"ano" : 2018,
+		"genero" : "fantasia, acao",
+		"saga" : "Trono de Vidro"
 	},
 	{
 		"id" : 134,
@@ -1337,7 +1603,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91g0yJEArvL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Aelin reúne aliados para enfrentar ameaças crescentes ao reino.",
-		"ano" : 2017
+		"ano" : 2017,
+		"genero" : "fantasia, acao",
+		"saga" : "Trono de Vidro"
 	},
 	{
 		"id" : 135,
@@ -1347,7 +1615,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81nK4Yiz8SL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Aelin retorna para confrontar conspirações e fortalecer seu poder.",
-		"ano" : 2016
+		"ano" : 2016,
+		"genero" : "fantasia, acao",
+		"saga" : "Trono de Vidro"
 	},
 	{
 		"id" : 136,
@@ -1357,7 +1627,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/71BHkI70L7L._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 12,
 		"sinopse" : "Uma sátira divertida acompanha uma família e seu porco tratado como gente.",
-		"ano" : 1982
+		"ano" : 1982,
+		"genero" : "drama",
+		"saga" : null
 	},
 	{
 		"id" : 137,
@@ -1367,7 +1639,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/61R7B4kqarL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 12,
 		"sinopse" : "Livro juvenil que aborda conflitos familiares e amadurecimento.",
-		"ano" : 2000
+		"ano" : 2000,
+		"genero" : "drama",
+		"saga" : null
 	},
 	{
 		"id" : 138,
@@ -1377,7 +1651,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81+YgONhrjL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Emma Carstairs investiga assassinatos em uma trama sobrenatural cheia de segredos.",
-		"ano" : 2017
+		"ano" : 2017,
+		"genero" : "fantasia, romance",
+		"saga" : "Os Artifícios das Trevas"
 	},
 	{
 		"id" : 139,
@@ -1387,7 +1663,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81Csapx23nL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "O conflito final da trilogia traz revelações e batalhas decisivas.",
-		"ano" : 2018
+		"ano" : 2018,
+		"genero" : "fantasia, romance",
+		"saga" : "Os Artifícios das Trevas"
 	},
 	{
 		"id" : 140,
@@ -1397,7 +1675,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/814w4i1bsjL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Emma mergulha em conspirações e mistérios no universo dos Caçadores de Sombras.",
-		"ano" : 2016
+		"ano" : 2016,
+		"genero" : "fantasia, romance",
+		"saga" : "Os Artifícios das Trevas"
 	},
 	{
 		"id" : 141,
@@ -1407,7 +1687,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/71oB8A0J-vL._AC_UL480_FMwebp_QL65_.jpg",
 		"idade_ideal" : 12,
 		"sinopse" : "Poirot retorna para resolver seu último caso em uma investigação clássica e cheia de tensão.",
-		"ano" : 1975
+		"ano" : 1975,
+		"genero" : "suspense, drama",
+		"saga" : null
 	},
 	{
 		"id" : 142,
@@ -1417,7 +1699,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91hnhxCy8LL._SY425_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Duas novelas românticas de Colleen Hoover reunidas em uma edição especial sobre amor e amadurecimento.",
-		"ano" : 2019
+		"ano" : 2019,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 143,
@@ -1427,7 +1711,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/91fuAU8ktIL._AC_UY327_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Kell, Lila e Rhy enfrentam uma ameaça capaz de destruir todos os mundos paralelos.",
-		"ano" : 2017
+		"ano" : 2017,
+		"genero" : "fantasia, acao",
+		"saga" : "Os Tons de Magia"
 	},
 	{
 		"id" : 144,
@@ -1437,7 +1723,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/71kWbMJhi9L._AC_UY327_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Kell participa de uma competição mágica enquanto uma nova ameaça cresce.",
-		"ano" : 2016
+		"ano" : 2016,
+		"genero" : "fantasia, acao",
+		"saga" : "Os Tons de Magia"
 	},
 	{
 		"id" : 145,
@@ -1447,7 +1735,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/717WCPfOm6L._AC_UY327_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Kell pode viajar entre diferentes Londres e acaba envolvido em magia proibida.",
-		"ano" : 2015
+		"ano" : 2015,
+		"genero" : "fantasia, acao",
+		"saga" : "Os Tons de Magia"
 	},
 	{
 		"id" : 146,
@@ -1457,7 +1747,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81-oAGI+lML._AC_UY327_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Victor Vale e Eli Ever desenvolvem habilidades extraordinárias e se tornam rivais perigosos.",
-		"ano" : 2018
+		"ano" : 2018,
+		"genero" : "fantasia, suspense",
+		"saga" : null
 	},
 	{
 		"id" : 147,
@@ -1467,7 +1759,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81dKmN4z0bL._AC_UY327_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Victor e Eli exploram moralidade, poder e vingança em uma fantasia sombria.",
-		"ano" : 2013
+		"ano" : 2013,
+		"genero" : "fantasia, suspense",
+		"saga" : null
 	},
 	{
 		"id" : 148,
@@ -1477,7 +1771,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/71SliYa-JkL._AC_UY327_FMwebp_QL65_.jpg",
 		"idade_ideal" : 14,
 		"sinopse" : "Catalina e Aaron fingem um relacionamento durante uma viagem para um casamento.",
-		"ano" : 2021
+		"ano" : 2021,
+		"genero" : "romance, drama",
+		"saga" : null
 	},
 	{
 		"id" : 149,
@@ -1487,7 +1783,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/61TpDjNdZrL._AC_UY327_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Neil Josten entra para um time universitário enquanto foge de seu passado criminoso.",
-		"ano" : 2014
+		"ano" : 2014,
+		"genero" : "drama, romance",
+		"saga" : "Tudo Pelo Jogo"
 	},
 	{
 		"id" : 150,
@@ -1497,7 +1795,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/71dSmAgYztL._AC_UY327_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Neil enfrenta ameaças crescentes enquanto sua verdadeira identidade corre risco.",
-		"ano" : 2014
+		"ano" : 2014,
+		"genero" : "drama, romance",
+		"saga" : "Tudo Pelo Jogo"
 	},
 	{
 		"id" : 151,
@@ -1507,7 +1807,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/71qg3xEutlL._AC_UY327_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "A conclusão da trilogia traz confrontos finais, segredos revelados e sobrevivência.",
-		"ano" : 2014
+		"ano" : 2014,
+		"genero" : "drama, romance",
+		"saga" : "Tudo Pelo Jogo"
 	},
 	{
 		"id" : 152,
@@ -1517,7 +1819,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/71Dx9tdvtjL._AC_UY327_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Neil se junta aos Foxes e tenta sobreviver escondendo quem realmente é.",
-		"ano" : 2013
+		"ano" : 2013,
+		"genero" : "drama, romance",
+		"saga" : "Tudo Pelo Jogo"
 	},
 	{
 		"id" : 153,
@@ -1527,7 +1831,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/81z-fUzRFxL._AC_UY327_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Aelin aceita seu destino e fortalece seus poderes rumo a batalhas maiores.",
-		"ano" : 2014
+		"ano" : 2014,
+		"genero" : "fantasia, acao",
+		"saga" : "Trono de Vidro"
 	},
 	{
 		"id" : 154,
@@ -1537,7 +1843,9 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/814x0T5JlsL._AC_UY327_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Celaena retorna para confrontar conspirações e descobrir verdades ocultas.",
-		"ano" : 2013
+		"ano" : 2013,
+		"genero" : "fantasia, acao",
+		"saga" : "Trono de Vidro"
 	},
 	{
 		"id" : 155,
@@ -1547,6 +1855,68 @@ let livros = [
 		"url" : "https://m.media-amazon.com/images/I/811uc+0NcGL._AC_UY327_FMwebp_QL65_.jpg",
 		"idade_ideal" : 16,
 		"sinopse" : "Contos que exploram aventuras anteriores de Celaena Sardothien antes da saga principal.",
-		"ano" : 2014
+		"ano" : 2014,
+		"genero" : "fantasia, acao",
+		"saga" : "Trono de Vidro"
+	},
+	{
+		"id" : 156,
+		"nome" : "Keeping 13",
+		"autor" : "Chloe Walsh",
+		"paginas" : 688,
+		"url" : "https://m.media-amazon.com/images/I/81HsivUvF9L._AC_UY327_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Na continuação de Binding 13, Johnny e Shannon precisam enfrentar traumas familiares, pressões externas e inseguranças enquanto tentam manter seu relacionamento vivo.",
+		"ano" : 2018,
+		"genero" : "romance, drama",
+		"saga" : "Boys of Tommen"
+	},
+	{
+		"id" : 157,
+		"nome" : "Saving 6",
+		"autor" : "Chloe Walsh",
+		"paginas" : 736,
+		"url" : "https://m.media-amazon.com/images/I/91vugeRUx4L._AC_UY327_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "A história volta no tempo para acompanhar Joey Lynch e Aoife Molloy, explorando dependência, violência familiar e um relacionamento intenso e complicado.",
+		"ano" : 2023,
+		"genero" : "romance, drama",
+		"saga" : "Boys of Tommen"
+	},
+	{
+		"id" : 158,
+		"nome" : "Redeeming 6",
+		"autor" : "Chloe Walsh",
+		"paginas" : 880,
+		"url" : "https://m.media-amazon.com/images/I/91wv88JxLGL._AC_UY327_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Joey e Aoife lutam para superar erros, vícios e dores profundas enquanto tentam reconstruir suas vidas e relação.",
+		"ano" : 2023,
+		"genero" : "romance, drama",
+		"saga" : "Boys of Tommen"
+	},
+	{
+		"id" : 159,
+		"nome" : "Taming 7",
+		"autor" : "Chloe Walsh",
+		"paginas" : 768,
+		"url" : "https://m.media-amazon.com/images/I/81-zZlhOeuL._AC_UY327_FMwebp_QL65_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Gibsie e Claire enfrentam inseguranças, amadurecimento e questões do passado em uma história marcada por humor e vulnerabilidade emocional.",
+		"ano" : 2024,
+		"genero" : "romance, drama",
+		"saga" : "Boys of Tommen"
+	},
+	{
+		"id" : 160,
+		"nome" : "Releasing 10",
+		"autor" : "Chloe Walsh",
+		"paginas" : 784,
+		"url" : "https://m.media-amazon.com/images/I/915SA2hf3iL._SY425_.jpg",
+		"idade_ideal" : 16,
+		"sinopse" : "Lizzie Young e Hugh Biggs protagonizam uma história emocional sobre cura, amizade e amor em meio a desafios pessoais e familiares.",
+		"ano" : 2025,
+		"genero" : "romance, drama",
+		"saga" : "Boys of Tommen"
 	}
 ]
